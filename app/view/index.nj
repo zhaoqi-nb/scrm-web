@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="{{ pageDes }}" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:image" content="https://databurning-scrm-prod-1308952381.cos.ap-beijing.myqcloud.com/default/Mobile/qr_code.png" />
+    <!-- <link type="image/x-icon" href="/public/favicon.ico" rel="icon"> -->
+    <title>{{ title }}</title>
+<link rel="icon" href="//localhost:8080/app/public/dist/favicon.ico"></head>
+<body>
+    <div id="container">
+            <style>
+                    .wrapp {
+                        width: 100%;
+                        vertical-align: middle;
+                        margin: 15% 0 0 0;
+                        text-align: center;
+                    }
+                    .load-text{
+                        font-size: 15px;
+                        color: #666;
+                        animation: rs-text-loading 4s infinite;
+                        animation-delay: .8s
+                    }
+                    .rs-line {
+                        display: inline-block;
+                        height: 10px;
+                        width: 10px;
+                        opacity: 0;
+                        border-radius: 50%;
+                        transform: translateX(-300px);
+                        background-color: rgb(24, 144, 255);
+                    }
+        
+                    .rs-line-1 {
+                        animation: rs-loading 4s infinite;
+                        animation-delay: .8s
+                    }
+        
+                    .rs-line-2 {
+                        animation: rs-loading 4s infinite;
+                        animation-delay: .7s
+                    }
+        
+                    .rs-line-3 {
+                        animation: rs-loading 4s infinite;
+                        animation-delay: .6s
+                    }
+        
+                    .rs-line-4 {
+                        animation: rs-loading 4s infinite;
+                        animation-delay: .5s
+                    }
+        
+                    .rs-line-5 {
+                        animation: rs-loading 4s infinite;
+                        animation-delay: .4s
+                    }
+        
+                    .rs-line-6 {
+                        animation: rs-loading 4s infinite;
+                        animation-delay: .3s
+                    }
+        
+                    .rs-line-7 {
+                        animation: rs-loading 4s infinite;
+                        animation-delay: .2s
+                    }
+        
+                    .rs-line-8 {
+                        animation: rs-loading 4s infinite;
+                        animation-delay: .1s
+                    }
+        
+                    @keyframes rs-text-loading {
+                        40% {
+                            opacity: .7
+                        }
+        
+                        100% {
+                            opacity: 0
+                        }
+                    }
+                    @keyframes rs-loading {
+                        40% {
+                            transform: translateX(0);
+                            opacity: .8
+                        }
+        
+                        100% {
+                            transform: translateX(300px);
+                            opacity: 0
+                        }
+                    }
+                </style>
+                <div class="wrapp">
+                    <div>
+                        <p class="load-text">{{ loadText }}</p>
+                        <div class="rs-line rs-line-1"></div>
+                        <div class="rs-line rs-line-2"></div>
+                        <div class="rs-line rs-line-3"></div>
+                        <div class="rs-line rs-line-4"></div>
+                        <div class="rs-line rs-line-5"></div>
+                        <div class="rs-line rs-line-6"></div>
+                        <div class="rs-line rs-line-7"></div>
+                        <div class="rs-line rs-line-8"></div>
+                    </div>
+                </div>
+
+    </div>
+    <script>
+         var MENUDATA     = "{{ menuData }}";
+         var PAGETITLE     = "{{ title }}";
+    </script>
+    <script src="//localhost:8080/app/public/dist/public/react/react.development.js"></script>
+    <script src="//localhost:8080/app/public/dist/public/react-dom/react-dom.development.js"></script>
+<script src="//localhost:8080/app/public/dist/main.js"></script></body>
+</html>

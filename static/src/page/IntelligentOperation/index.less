@@ -1,0 +1,104 @@
+.smartBox {
+  box-sizing: border-box;
+  padding: 0 24px;
+  .smartTitle {
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .formBox {
+    .ant-input-affix-wrapper {
+      width: 220px;
+    }
+  }
+  .bannerBox {
+    display: flex;
+    margin-top: 16px;
+    font-weight: 500;
+    .checkBanner {
+      background: #0678ff;
+      color: white;
+      .iconBox {
+        background: #3793ff;
+        color: white;
+      }
+    }
+    > div {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f5f7fa;
+      height: 48px;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-right: 16px;
+    }
+    :last-child {
+      margin-right: 0;
+    }
+  }
+  .iconBox {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #dde9fa;
+    border-radius: 50%;
+    color: #0678ff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    margin-right: 12px;
+  }
+  .tableBox {
+    margin-top: 16px;
+    .inlineBlock {
+      display: inline-block;
+      .moreA {
+        margin-right: 0;
+      }
+      .anticon {
+        color: #1890ff;
+      }
+    }
+    .photoBox {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+    .circle {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin-right: 5px;
+      border-radius: 50%;
+    }
+    .moreBox {
+      a {
+        margin-right: 16px;
+      }
+    }
+  }
+}
+.moreDiv {
+  background: white;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  > div {
+    width: 56px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  > div:hover {
+    background: #f0f7ff;
+  }
+}
+.ant-card {
+  border-radius: 4px;
+}

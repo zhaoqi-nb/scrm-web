@@ -1,0 +1,17 @@
+2022-07-23 06:49:09,720 INFO 4440 [egg-logrotator] app logger reload: got log-reload message
+2022-07-23 09:00:04,567 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-23 09:00:04,602 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-23 18:29:59,017 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-23 18:29:59,114 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-23 20:51:30,206 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-23 20:51:30,895 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-23 21:30:13,139 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-23 21:30:13,150 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-24 09:32:51,013 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-24 09:32:51,014 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-24 09:32:51,247 INFO 4440 [egg-logrotator] start remove /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs files: databurning-scrm-web-agent.log.2022-07-13, databurning-scrm-web-core.log.2022-07-13, databurning-scrm-web.err.2022-07-13, databurning-scrm-web.log.2022-07-13, egg-schedule.log.2022-07-13
+2022-07-24 09:32:51,253 INFO 4440 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1c/rlxxjm8j72b3d5bv108hct740000gn/T/egg-multipart-tmp/databurning-scrm-web"
+2022-07-24 09:32:51,289 INFO 4440 [egg-logrotator] clean all log before 10 days
+2022-07-24 09:32:51,316 INFO 4440 [-/127.0.0.1/-/63ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-07-24 09:32:51,322 INFO 4440 [egg-logrotator] broadcast log-reload
+2022-07-24 09:32:51,322 INFO 4440 [egg-logrotator] rotate files success by DayRotator, files ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.err -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.err.2022-07-23","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.log.2022-07-23","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-core.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-core.log.2022-07-23","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/egg-schedule.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/egg-schedule.log.2022-07-23","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-agent.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-agent.log.2022-07-23"]

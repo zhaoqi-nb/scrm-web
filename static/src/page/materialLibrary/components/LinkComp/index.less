@@ -1,0 +1,46 @@
+.linkComp {
+  width: 194px;
+  border: 1px solid #e1e8f0;
+  box-sizing: border-box;
+  padding: 7px;
+  cursor: pointer;
+  .title {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+  }
+  .describe {
+    color: #8c8c8c;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 7px 0px;
+    > div:first-child {
+      flex: 1;
+      max-width: 150px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    > div:last-child {
+      width: 40px;
+      > img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  .bottom {
+    color: #8c8c8c;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding-top: 5px;
+  }
+}

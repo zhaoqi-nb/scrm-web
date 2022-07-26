@@ -1,0 +1,99 @@
+2022-03-25 15:23:13,695 INFO 30192 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-25 15:23:13,765 INFO 30192 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-03-25 15:23:13,772 INFO 30192 [egg:core] dump config after load, 4ms
+2022-03-25 15:23:13,822 INFO 30192 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"]
+2022-03-25 15:23:13,822 INFO 30192 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app"
+2022-03-25 15:23:13,822 INFO 30192 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config"
+2022-03-25 15:23:13,822 INFO 30192 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks"
+2022-03-25 15:23:13,822 INFO 30192 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy"
+2022-03-25 15:23:13,823 INFO 30192 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"
+2022-03-25 15:23:13,823 INFO 30192 [egg-watcher:agent] watcher start success
+2022-03-25 15:23:13,887 INFO 30192 [egg-redis] client connect success
+2022-03-25 15:23:13,913 INFO 30192 [egg-redis] instance[0] status OK, client ready
+2022-03-25 15:23:13,951 INFO 30192 [egg:core] dump config after ready, 37ms
+2022-03-25 15:27:06,312 INFO 30787 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-25 15:27:06,350 INFO 30787 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-03-25 15:27:06,357 INFO 30787 [egg:core] dump config after load, 5ms
+2022-03-25 15:27:06,397 INFO 30787 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"]
+2022-03-25 15:27:06,397 INFO 30787 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app"
+2022-03-25 15:27:06,397 INFO 30787 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config"
+2022-03-25 15:27:06,398 INFO 30787 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks"
+2022-03-25 15:27:06,398 INFO 30787 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy"
+2022-03-25 15:27:06,398 INFO 30787 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"
+2022-03-25 15:27:06,398 INFO 30787 [egg-watcher:agent] watcher start success
+2022-03-25 15:27:06,704 INFO 30787 [egg-redis] client connect success
+2022-03-25 15:27:06,726 INFO 30787 [egg-redis] instance[0] status OK, client ready
+2022-03-25 15:27:06,770 INFO 30787 [egg:core] dump config after ready, 43ms
+2022-03-25 15:28:22,901 INFO 31219 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-25 15:28:23,096 INFO 31219 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-03-25 15:28:23,102 INFO 31219 [egg:core] dump config after load, 4ms
+2022-03-25 15:28:23,210 INFO 31219 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"]
+2022-03-25 15:28:23,210 INFO 31219 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app"
+2022-03-25 15:28:23,210 INFO 31219 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config"
+2022-03-25 15:28:23,211 INFO 31219 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks"
+2022-03-25 15:28:23,211 INFO 31219 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy"
+2022-03-25 15:28:23,211 INFO 31219 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"
+2022-03-25 15:28:23,211 INFO 31219 [egg-watcher:agent] watcher start success
+2022-03-25 15:28:23,221 INFO 31219 [egg-redis] client connect success
+2022-03-25 15:28:23,247 INFO 31219 [egg-redis] instance[0] status OK, client ready
+2022-03-25 15:28:23,298 INFO 31219 [egg:core] dump config after ready, 48ms
+2022-03-25 15:28:52,262 INFO 31545 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-25 15:28:52,419 INFO 31545 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-03-25 15:28:52,431 INFO 31545 [egg:core] dump config after load, 6ms
+2022-03-25 15:28:52,516 INFO 31545 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"]
+2022-03-25 15:28:52,516 INFO 31545 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app"
+2022-03-25 15:28:52,517 INFO 31545 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config"
+2022-03-25 15:28:52,517 INFO 31545 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks"
+2022-03-25 15:28:52,517 INFO 31545 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy"
+2022-03-25 15:28:52,517 INFO 31545 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"
+2022-03-25 15:28:52,517 INFO 31545 [egg-watcher:agent] watcher start success
+2022-03-25 15:28:52,528 INFO 31545 [egg-redis] client connect success
+2022-03-25 15:28:52,580 INFO 31545 [egg-redis] instance[0] status OK, client ready
+2022-03-25 15:28:52,654 INFO 31545 [egg:core] dump config after ready, 72ms
+2022-03-25 15:42:13,071 INFO 34554 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-25 15:42:13,177 INFO 34554 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-03-25 15:42:13,185 INFO 34554 [egg:core] dump config after load, 5ms
+2022-03-25 15:42:13,254 INFO 34554 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"]
+2022-03-25 15:42:13,254 INFO 34554 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app"
+2022-03-25 15:42:13,255 INFO 34554 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config"
+2022-03-25 15:42:13,255 INFO 34554 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks"
+2022-03-25 15:42:13,255 INFO 34554 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy"
+2022-03-25 15:42:13,255 INFO 34554 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"
+2022-03-25 15:42:13,256 INFO 34554 [egg-watcher:agent] watcher start success
+2022-03-25 15:42:13,261 INFO 34554 [egg-redis] client connect success
+2022-03-25 15:42:13,374 INFO 34554 [egg-redis] instance[0] status OK, client ready
+2022-03-25 15:42:13,409 INFO 34554 [egg:core] dump config after ready, 34ms
+2022-03-25 15:47:12,111 INFO 35859 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-25 15:47:12,256 INFO 35859 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-03-25 15:47:12,262 INFO 35859 [egg:core] dump config after load, 4ms
+2022-03-25 15:47:12,405 INFO 35859 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"]
+2022-03-25 15:47:12,405 INFO 35859 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app"
+2022-03-25 15:47:12,405 INFO 35859 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config"
+2022-03-25 15:47:12,423 INFO 35859 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks"
+2022-03-25 15:47:12,423 INFO 35859 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy"
+2022-03-25 15:47:12,423 INFO 35859 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"
+2022-03-25 15:47:12,423 INFO 35859 [egg-watcher:agent] watcher start success
+2022-03-25 15:47:12,442 INFO 35859 [egg-redis] client connect success
+2022-03-25 15:47:12,458 INFO 35859 [egg-redis] instance[0] status OK, client ready
+2022-03-25 15:47:12,515 INFO 35859 [egg:core] dump config after ready, 56ms
+2022-03-25 15:50:01,480 INFO 36638 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-25 15:50:01,622 INFO 36638 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-03-25 15:50:01,637 INFO 36638 [egg:core] dump config after load, 9ms
+2022-03-25 15:50:01,777 INFO 36638 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"]
+2022-03-25 15:50:01,777 INFO 36638 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app"
+2022-03-25 15:50:01,777 INFO 36638 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config"
+2022-03-25 15:50:01,778 INFO 36638 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks"
+2022-03-25 15:50:01,778 INFO 36638 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy"
+2022-03-25 15:50:01,778 INFO 36638 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"
+2022-03-25 15:50:01,778 INFO 36638 [egg-watcher:agent] watcher start success
+2022-03-25 15:50:01,802 INFO 36638 [egg-redis] client connect success
+2022-03-25 15:50:01,871 INFO 36638 [egg-redis] instance[0] status OK, client ready
+2022-03-25 15:50:01,973 INFO 36638 [egg:core] dump config after ready, 100ms
+2022-03-25 16:30:07,010 ERROR 36638 nodejs.ClusterClientNoResponseError: client no response in 1479554ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 36638
+hostname: rs-front-01.local
+

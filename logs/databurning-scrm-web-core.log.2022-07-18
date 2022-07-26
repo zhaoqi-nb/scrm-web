@@ -1,0 +1,35 @@
+2022-07-18 10:09:08,968 INFO 80753 [egg-logrotator] app logger reload: got log-reload message
+2022-07-18 10:28:11,021 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 10:28:11,021 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 12:22:31,009 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 12:22:31,009 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 13:38:37,008 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 13:38:37,023 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 15:56:17,023 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 15:56:17,024 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 16:16:50,007 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 16:16:50,007 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 16:20:20,014 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 16:20:20,015 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 16:23:47,011 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 16:23:47,011 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 17:37:34,117 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 17:37:34,119 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 18:10:09,105 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 18:10:09,106 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 18:42:25,107 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 18:42:25,107 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 19:19:18,009 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 19:19:18,010 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 19:26:50,012 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 19:26:50,013 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-18 20:42:36,113 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-18 20:42:36,114 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-19 10:00:00,013 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-19 10:00:00,014 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-19 10:00:00,173 INFO 80753 [egg-logrotator] start remove /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs files: databurning-scrm-web-agent.log.2022-07-08, databurning-scrm-web-core.log.2022-07-08, databurning-scrm-web.err.2022-07-08, databurning-scrm-web.log.2022-07-08, egg-schedule.log.2022-07-08
+2022-07-19 10:00:00,175 INFO 80753 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1c/rlxxjm8j72b3d5bv108hct740000gn/T/egg-multipart-tmp/databurning-scrm-web"
+2022-07-19 10:00:00,203 INFO 80753 [egg-logrotator] clean all log before 10 days
+2022-07-19 10:00:00,219 INFO 80753 [-/127.0.0.1/-/44ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-07-19 10:00:00,222 INFO 80753 [egg-logrotator] broadcast log-reload
+2022-07-19 10:00:00,222 INFO 80753 [egg-logrotator] rotate files success by DayRotator, files ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.err -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.err.2022-07-18","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.log.2022-07-18","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-core.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-core.log.2022-07-18","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/egg-schedule.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/egg-schedule.log.2022-07-18","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-agent.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-agent.log.2022-07-18"]

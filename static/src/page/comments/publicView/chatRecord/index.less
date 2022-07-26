@@ -1,0 +1,106 @@
+.itemPanel {
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  &&.right {
+    &&:before {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border: 8px solid transparent;
+      top: 8px;
+      right: -16px;
+      border-left-color: #fff;
+      // margin-top: -8px;
+      border-radius: 1px;
+    }
+    &&.arrow-external_redpacket {
+      &&:before {
+        border-left-color: #fb9f3c;
+      }
+    }
+    &&.arrow-redpacket {
+      &&:before {
+        border-left-color: #fb9f3c;
+      }
+    }
+  }
+  &&.left {
+    &&:before {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border: 8px solid transparent;
+      top: 8px;
+      left: -16px;
+      border-right-color: #fff;
+      // margin-top: -8px;
+      border-radius: 1px;
+    }
+    &&.arrow-external_redpacket {
+      &&:before {
+        border-right-color: #fb9f3c;
+      }
+    }
+    &&.arrow-redpacket {
+      &&:before {
+        border-right-color: #fb9f3c;
+      }
+    }
+  }
+}
+.wrapper {
+  display: flex;
+  overflow: hidden;
+  //resize: horizontal;
+}
+
+.box {
+  text-align: justify;
+  font-size: 11px;
+  overflow: hidden; //首先固定宽高，然后让溢出的文字隐藏
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; //表示显示的行数
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  white-space: normal;
+}
+.box1 {
+  text-align: justify;
+  font-size: 11px;
+  overflow: hidden; //首先固定宽高，然后让溢出的文字隐藏
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  // -webkit-line-clamp: 4; //表示显示的行数
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  white-space: normal;
+}
+.floatImg {
+  float: right;
+  height: 100%;
+  margin-left: 3px;
+  display: flex;
+  align-items: flex-end;
+  shape-outside: inset(calc(100% - 20px) 0 0);
+}
+
+.videDiv {
+  background-color: #ffff;
+  background-image: url('./imgage/video.png');
+  width: 120px;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: center, center;
+}
+
+.radius11 {
+  .ant-image-img {
+    border-radius: 11px;
+  }
+}
+
+.bg-redpacket {
+  background-color: #fb9f3c;
+}

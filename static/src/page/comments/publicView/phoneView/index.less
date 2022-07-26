@@ -1,0 +1,61 @@
+.conentDiv {
+  background-color: transparent;
+  background-image: url('./imgage/phoneBg.png');
+  width: 270px;
+  height: 515px;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  position: relative;
+  .conentPanel {
+    position: absolute;
+    width: 220px;
+    height: 420px;
+    // border: 1px solid #000;
+    top: 42px;
+    left: 12px;
+  }
+}
+.wrapper {
+  display: flex;
+  overflow: hidden;
+  //resize: horizontal;
+}
+.box {
+  text-align: justify;
+  font-size: 11px;
+  overflow: hidden; //首先固定宽高，然后让溢出的文字隐藏
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; //表示显示的行数
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  white-space: normal;
+}
+.box1 {
+  text-align: justify;
+  font-size: 11px;
+  overflow: hidden; //首先固定宽高，然后让溢出的文字隐藏
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  // -webkit-line-clamp: 4; //表示显示的行数
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  white-space: normal;
+}
+.floatImg {
+  float: right;
+  height: 100%;
+  margin-left: 3px;
+  display: flex;
+  align-items: flex-end;
+  shape-outside: inset(calc(100% - 20px) 0 0);
+}
+
+.videDiv {
+  background-color: #ffff;
+  background-image: url('./imgage/video.png');
+  width: 120px;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: center, center;
+}

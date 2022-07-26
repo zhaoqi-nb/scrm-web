@@ -1,0 +1,17 @@
+2022-07-24 09:32:51,330 INFO 4406 [egg-logrotator] agent logger reload: got log-reload message
+2022-07-24 19:15:02,015 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 34930702ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-25 10:16:47,808 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 54075538ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+

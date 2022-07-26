@@ -1,0 +1,8 @@
+2022-07-16 13:47:40,032 ERROR 59023 [-/127.0.0.1/-/10ms GET /followupClue] 拦截器checkUserCookie 发生错误=TypeError: Cannot read properties of undefined (reading 'version')
+2022-07-16 13:49:49,339 DEBUG 80753 [-/127.0.0.1/-/172ms POST /api/scrm-web-login/scrm-basic/noAuth/account/login] http://testscrm.databurning.com/gateway/scrm-basic/noAuth/account/login?mobile=15234741765&password=123456a&ipAddress=127.0.0.1
+2022-07-16 13:49:49,501 DEBUG 80753 [-/127.0.0.1/-/124ms GET /] http://testscrm.databurning.com/gateway/scrm-basic/permissionInfo/getUserPermissionInfo?
+2022-07-16 13:49:50,120 DEBUG 80753 [-/127.0.0.1/-/605ms GET /tab/channelLiveCode] http://testscrm.databurning.com/gateway/scrm-basic/permissionInfo/getUserPermissionInfo?
+2022-07-16 13:49:50,180 DEBUG 80753 [-/127.0.0.1/-/39ms GET /friendsWelcome] http://testscrm.databurning.com/gateway/scrm-basic/permissionInfo/getUserPermissionInfo?
+2022-07-16 13:49:52,896 DEBUG 80753 [-/127.0.0.1/-/126ms POST /api/scrm-web/scrm-service/welcomeMessageInfo/queryList] http://testscrm.databurning.com/gateway/scrm-service/welcomeMessageInfo/queryList?pageNo=1&pageSize=10&message=&memberIds=&bizType=1
+2022-07-16 13:51:05,772 DEBUG 80753 [-/127.0.0.1/-/7266ms GET /friendsWelcome] http://testscrm.databurning.com/gateway/scrm-basic/permissionInfo/getUserPermissionInfo?
+2022-07-16 13:59:21,320 DEBUG 80753 [-/127.0.0.1/-/287ms POST /api/scrm-web/scrm-service/welcomeMessageInfo/queryList] http://testscrm.databurning.com/gateway/scrm-service/welcomeMessageInfo/queryList?pageNo=1&pageSize=10&message=&memberIds=&bizType=1

@@ -1,0 +1,195 @@
+@selectColor: '#0678FF';
+
+.onJobInherit {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .onJobInherit-content {
+    flex: 1;
+    .onJobInherit-pagetitle {
+      font-size: 16px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: #262626;
+      padding-top: 12px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .onJobInherit-title {
+      font-size: 14px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: #262626;
+      padding-top: 10px 0;
+    }
+    .onJobInherit-explain {
+      display: flex;
+      align-items: center;
+      background: #f0f7ff;
+      height: 40px;
+      line-height: 40px;
+      color: #262626;
+      border-radius: 8px;
+    }
+    .onJobInherit-dl {
+      display: flex;
+      > dl {
+        width: 290px;
+        height: 129px;
+        background: linear-gradient(360deg, rgba(6, 120, 255, 0.03) 0%, rgba(255, 255, 255, 0) 100%);
+        box-shadow: 0px 6px 16px 0px rgba(29, 33, 41, 0.08), 0px 3px 6px -4px rgba(29, 33, 41, 0.12);
+        border-radius: 8px;
+        border: 1px solid #e1e8f0;
+        text-align: center;
+        padding: 36px 60px;
+        cursor: pointer;
+        > dt {
+          font-size: 18px;
+          font-weight: 500;
+          color: #262626;
+          margin-bottom: 11px;
+        }
+        > dd {
+          font-size: 12px;
+          color: #595959;
+        }
+      }
+      > dl:first-child {
+        margin-right: 36px;
+      }
+    }
+    .onJobInherit-transfer {
+      width: 290px;
+      height: 54px;
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid #e1e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    .transfer {
+      margin-top: 20px;
+    }
+    .onJobInherit-addUser {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 32px;
+      width: 84px;
+      background: #f5f7fa;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+
+  .onJobInherit-bottom {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: -2px -2px 4px 0px rgba(0, 0, 0, 0.05);
+    line-height: 60px;
+  }
+}
+
+.onJobInherit-explain {
+  display: flex;
+  align-items: center;
+  background: #f0f7ff;
+  height: 40px;
+  line-height: 40px;
+  color: #262626;
+  border-radius: 8px;
+  padding: 0 16px;
+  font-size: 12px;
+}
+
+.onJobInherit-modalSelect {
+  width: 100%;
+  max-height: 232px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border: 1px solid #e1e8f0;
+  position: absolute;
+  top: 80;
+  margin-top: -10px;
+  z-index: 9;
+  padding: 12px 0;
+  overflow-y: auto;
+  li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 12px;
+    &:hover {
+      background: #f0f7ff;
+    }
+    > p {
+      margin: 0;
+    }
+  }
+}
+.onJobInherit-modalSelect-none {
+  display: none;
+}
+
+.onJobInherit-messageDiv {
+  width: 372px;
+  height: 170px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.itemBox {
+  img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 3px;
+  }
+  color: #262626;
+}
+
+.cancel-btn {
+  width: 24px;
+  height: 32px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #595959;
+  line-height: 32px;
+  border: none;
+  margin-right: 20px;
+  text-align: center;
+}
+.true-btn {
+  width: 72px;
+  height: 32px;
+  background: #0678ff;
+  border-radius: 4px;
+  color: white;
+  margin-left: 20px;
+  &:hover {
+    background: #0678ff;
+    color: white;
+  }
+}
+.select-style {
+  background-color: #f0f7ff;
+  color: #0678ff;
+}
+.spanBox {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 50px;
+}
+
+// .ant-tooltip-content {
+//   min-width: 50px;
+// }

@@ -1,0 +1,202 @@
+@space: 24px;
+@border_light: #e1e8f0;
+@border_dark: #868686;
+
+.modalDefault() {
+  :global {
+    .ant-modal-header {
+      padding-top: 18px;
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+    .ant-modal-body {
+      padding: @space;
+    }
+    .ant-modal-footer {
+      padding: @space;
+      padding-top: 0;
+      border-top: 0;
+    }
+    .ant-btn + .ant-btn:not(.ant-dropdown-trigger) {
+      margin-left: 16px;
+    }
+  }
+}
+
+.modal {
+  .ant-tree-treenode {
+    position: relative;
+  }
+  .ant-tree .ant-tree-node-content-wrapper:hover {
+    background: #f0f7ff;
+  }
+  .ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    background: #f0f7ff;
+  }
+  .ant-tree-checkbox {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+  }
+  .modalDefault();
+  .modal_title {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-left: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    // background-image: url('~@/assets/img/plan_icon.png');
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+  }
+
+  .modal_body {
+    display: flex;
+    width: 100%;
+    height: 328px;
+    overflow: hidden;
+    border-radius: 4px;
+    .treebox,
+    .choosebox {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      border: 1px solid @border_light;
+      margin-left: 20px;
+      padding: 16px 0;
+      overflow: hidden;
+    }
+    .treebox {
+      margin-left: 0px;
+      border-right: 1px solid @border_light;
+    }
+    .box_header {
+      height: 32px;
+      margin-bottom: 8px;
+      padding: 0 16px;
+    }
+    .box_content {
+      flex: 1;
+      padding: 0 16px;
+      overflow-y: auto;
+    }
+    .choosebox {
+      .box_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+    .chooseList {
+      margin: 0;
+      padding: 0;
+      color: #595959;
+      list-style: none;
+      > li:hover {
+        background: #f0f7ff;
+      }
+      > li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 28px;
+        cursor: pointer;
+        .chooseName {
+          flex: 1;
+          overflow: hidden;
+        }
+      }
+    }
+    .close {
+      width: 16px;
+      height: 16px;
+      color: #bfbfbf;
+    }
+    .clear {
+      color: #8c8c8c;
+      cursor: pointer;
+      height: 20px;
+      color: #0678ff;
+    }
+  }
+
+  .foot {
+    width: 80px;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+  .search_act {
+    color: #18a0fb;
+  }
+}
+
+html[data-type-color='dark'] {
+  :global {
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 10px;
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #acb1c1;
+      border-radius: 5px;
+      opacity: 0.5;
+    }
+    ::-webkit-scrollbar-track {
+      border-radius: 5px;
+    }
+    .ant-modal-header,
+    .ant-modal-content {
+      background-color: #3a3a3a;
+    }
+    .ant-input-affix-wrapper {
+      border-color: #757575;
+    }
+    .ant-tree-checkbox-checked .ant-tree-checkbox-inner {
+      background: #18a0fb !important;
+    }
+    .ant-checkbox-inner,
+    .ant-tree-checkbox-inner,
+    .ant-checkbox-indeterminate .ant-checkbox-inner {
+      background: #2b2d30;
+      border-color: #fff;
+    }
+    .ant-modal-header {
+      background: #3a3a3a !important;
+    }
+    .ant-modal-body {
+      background: #3a3a3a !important;
+    }
+  }
+  .modal {
+    :global {
+      .ant-btn-primary {
+        background: #18a0fb !important;
+      }
+    }
+    .modalDefault();
+    .modal_title {
+      // background-image: url('~@/assets/img/plan_icon_dark.png');
+    }
+    .modal_body {
+      border-color: @border_dark;
+      .treebox {
+        border-color: @border_dark;
+      }
+      .chooseList {
+        color: #fff;
+      }
+      .close {
+        color: #d8d8d8;
+      }
+      .clear {
+        color: #fff;
+      }
+    }
+  }
+}

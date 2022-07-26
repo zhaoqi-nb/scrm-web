@@ -1,0 +1,7 @@
+2022-07-26 00:09:55,164 DEBUG 4406 [Job#165876539511938172153983434827] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/rotate_by_file.js finish event received by agent from worker#4440
+2022-07-26 04:34:23,018 DEBUG 4440 [Job#165878126301138330828592475817] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js task received by app
+2022-07-26 04:34:23,018 INFO 4440 [Job#165878126301138330828592475817] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-07-26 04:34:23,031 INFO 4440 [Job#165878126301138330828592475817] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 13ms. 
+2022-07-26 04:34:23,011 DEBUG 4406 [Job#165878126301138330828592475817] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js triggered, send random by agent
+2022-07-26 04:34:23,012 INFO 4406 [Timer] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86136989ms at 2022-07-27 04:30:00.001
+2022-07-26 04:34:23,031 DEBUG 4406 [Job#165878126301138330828592475817] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js finish event received by agent from worker#4440

@@ -1,0 +1,37 @@
+2022-07-25 10:16:48,660 INFO 4440 [egg-logrotator] app logger reload: got log-reload message
+2022-07-25 10:37:09,010 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 10:37:09,010 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 12:21:58,010 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 12:21:58,010 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 12:56:27,110 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 12:56:27,111 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 13:31:02,007 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 13:31:02,111 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 13:44:38,018 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 13:44:38,125 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 16:00:55,116 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 16:00:55,120 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 16:05:45,008 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 16:05:45,008 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 18:17:25,171 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 18:17:25,184 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 19:35:58,125 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 19:35:58,126 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 20:39:30,015 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 20:39:30,015 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 21:17:45,007 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 21:17:45,007 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 21:49:59,007 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 21:49:59,008 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 22:28:44,009 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 22:28:44,009 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 23:01:52,008 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 23:01:52,008 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-25 23:36:52,010 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-25 23:36:52,010 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 00:09:55,011 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 00:09:55,011 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 00:09:55,130 INFO 4440 [egg-logrotator] start remove /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs files: databurning-scrm-web-agent.log.2022-07-15, databurning-scrm-web-core.log.2022-07-15, databurning-scrm-web.err.2022-07-15, databurning-scrm-web.log.2022-07-15, egg-schedule.log.2022-07-15
+2022-07-26 00:09:55,150 INFO 4440 [egg-logrotator] clean all log before 10 days
+2022-07-26 00:09:55,153 INFO 4440 [egg-logrotator] broadcast log-reload
+2022-07-26 00:09:55,153 INFO 4440 [egg-logrotator] rotate files success by DayRotator, files ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.err -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.err.2022-07-25","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.log.2022-07-25","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-core.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-core.log.2022-07-25","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/egg-schedule.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/egg-schedule.log.2022-07-25","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-agent.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-agent.log.2022-07-25"]

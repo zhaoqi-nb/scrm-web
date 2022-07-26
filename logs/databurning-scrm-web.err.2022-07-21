@@ -1,0 +1,393 @@
+2022-07-21 00:47:11,007 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1852886ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 01:27:07,103 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2356065ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 02:03:15,111 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2128053ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 02:36:22,007 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1947064ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 03:13:42,008 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2200314ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 03:51:39,103 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2237327ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 04:22:32,007 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1812332ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 04:59:31,121 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2178365ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 05:31:45,008 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1893489ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 06:02:59,007 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1833635ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 06:43:07,006 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2367725ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 07:16:40,017 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1972787ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 07:55:09,010 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2268880ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 08:26:00,007 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1810894ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 09:00:09,008 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2008886ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 09:34:11,007 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2001784ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 10:00:00,008 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1508984ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 11:08:07,126 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 766322ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 12:35:28,006 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2219527ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 13:06:26,007 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1818176ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 13:40:18,108 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1992205ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 13:55:00,009 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 842176ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 21:18:48,005 ERROR 4440 [-/127.0.0.1/-/38ms POST /api/getPageInfo] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = Error: connect ECONNRESET 140.143.217.68:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'connect',
+  address: '140.143.217.68',
+  port: 80,
+  name: 'RequestError',
+  data: undefined,
+  path: '/gateway/scrm-basic/permissionInfo/getUserPermissionInfo',
+  status: -1,
+  headers: {},
+  res: [Object]
+}
+2022-07-21 21:18:48,006 ERROR 4440 [-/127.0.0.1/-/48ms POST /api/getPageInfo] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = 
+2022-07-21 21:18:48,536 ERROR 4440 [-/127.0.0.1/-/12ms POST /api/scrm-web/scrm-basic/cusFieldConfig/page] api 调用失败：url = scrm-basic/cusFieldConfig/page, param = Error: connect ECONNRESET 140.143.217.68:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'connect',
+  address: '140.143.217.68',
+  port: 80,
+  name: 'RequestError',
+  data: undefined,
+  path: '/gateway/scrm-basic/cusFieldConfig/page',
+  status: -1,
+  headers: {},
+  res: [Object]
+}
+2022-07-21 21:18:48,537 ERROR 4440 [-/127.0.0.1/-/13ms POST /api/scrm-web/scrm-basic/cusFieldConfig/page] api 调用失败：url = scrm-basic/cusFieldConfig/page, param = 
+2022-07-21 21:25:10,692 ERROR 4440 [-/127.0.0.1/-/39ms GET /customFields] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = Error: connect ECONNRESET 140.143.217.68:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'connect',
+  address: '140.143.217.68',
+  port: 80,
+  name: 'RequestError',
+  data: undefined,
+  path: '/gateway/scrm-basic/permissionInfo/getUserPermissionInfo',
+  status: -1,
+  headers: {},
+  res: [Object]
+}
+2022-07-21 21:25:10,693 ERROR 4440 [-/127.0.0.1/-/41ms GET /customFields] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = 
+2022-07-21 21:25:16,679 ERROR 4440 [-/127.0.0.1/-/51ms POST /api/scrm-web/scrm-basic/cusFieldConfig/page] api 调用失败：url = scrm-basic/cusFieldConfig/page, param = Error: connect ECONNRESET 140.143.217.68:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'connect',
+  address: '140.143.217.68',
+  port: 80,
+  name: 'RequestError',
+  data: undefined,
+  path: '/gateway/scrm-basic/cusFieldConfig/page',
+  status: -1,
+  headers: {},
+  res: [Object]
+}
+2022-07-21 21:25:16,679 ERROR 4440 [-/127.0.0.1/-/52ms POST /api/scrm-web/scrm-basic/cusFieldConfig/page] api 调用失败：url = scrm-basic/cusFieldConfig/page, param = 
+2022-07-21 21:26:10,570 ERROR 4440 [-/127.0.0.1/-/15ms GET /customFields] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at Socket._writeGeneric (node:net:795:11)
+    at Socket.connect (node:net:777:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Socket.emit (node:events:402:35)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1147:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  name: 'ResponseError',
+  data: undefined,
+  path: '/gateway/scrm-basic/permissionInfo/getUserPermissionInfo',
+  status: -1,
+  headers: {},
+  res: [Object]
+}
+2022-07-21 21:26:10,570 ERROR 4440 [-/127.0.0.1/-/16ms GET /customFields] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = 
+2022-07-21 21:26:16,075 ERROR 4440 [-/127.0.0.1/-/14ms POST /api/scrm-web/scrm-basic/cusFieldConfig/page] api 调用失败：url = scrm-basic/cusFieldConfig/page, param = Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writevGeneric (node:internal/stream_base_commons:147:3)
+    at Socket._writeGeneric (node:net:793:11)
+    at Socket.connect (node:net:777:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Socket.emit (node:events:402:35)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1147:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  name: 'ResponseError',
+  data: undefined,
+  path: '/gateway/scrm-basic/cusFieldConfig/page',
+  status: -1,
+  headers: {},
+  res: [Object]
+}
+2022-07-21 21:26:16,075 ERROR 4440 [-/127.0.0.1/-/14ms POST /api/scrm-web/scrm-basic/cusFieldConfig/page] api 调用失败：url = scrm-basic/cusFieldConfig/page, param = 
+2022-07-21 21:27:19,303 ERROR 4440 [-/127.0.0.1/-/12ms GET /customFields] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at Socket._writeGeneric (node:net:795:11)
+    at Socket.connect (node:net:777:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Socket.emit (node:events:402:35)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1147:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  name: 'ResponseError',
+  data: undefined,
+  path: '/gateway/scrm-basic/permissionInfo/getUserPermissionInfo',
+  status: -1,
+  headers: {},
+  res: [Object]
+}
+2022-07-21 21:27:19,304 ERROR 4440 [-/127.0.0.1/-/13ms GET /customFields] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = 
+2022-07-21 21:27:26,154 ERROR 4440 [-/127.0.0.1/-/12ms POST /api/scrm-web/scrm-basic/cusFieldConfig/page] api 调用失败：url = scrm-basic/cusFieldConfig/page, param = Error: connect ECONNRESET 140.143.217.68:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'connect',
+  address: '140.143.217.68',
+  port: 80,
+  name: 'RequestError',
+  data: undefined,
+  path: '/gateway/scrm-basic/cusFieldConfig/page',
+  status: -1,
+  headers: {},
+  res: [Object]
+}
+2022-07-21 21:27:26,154 ERROR 4440 [-/127.0.0.1/-/12ms POST /api/scrm-web/scrm-basic/cusFieldConfig/page] api 调用失败：url = scrm-basic/cusFieldConfig/page, param = 
+2022-07-21 21:34:18,529 ERROR 4440 [-/127.0.0.1/-/189ms GET /customFields] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = Error: connect ECONNRESET 140.143.217.68:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'connect',
+  address: '140.143.217.68',
+  port: 80,
+  name: 'RequestError',
+  data: undefined,
+  path: '/gateway/scrm-basic/permissionInfo/getUserPermissionInfo',
+  status: -1,
+  headers: {},
+  res: [Object]
+}
+2022-07-21 21:34:18,530 ERROR 4440 [-/127.0.0.1/-/190ms GET /customFields] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = 
+2022-07-21 21:34:30,453 ERROR 4440 [-/127.0.0.1/-/23ms POST /api/scrm-web/scrm-basic/cusFieldConfig/page] api 调用失败：url = scrm-basic/cusFieldConfig/page, param = Error: connect ECONNRESET 140.143.217.68:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'connect',
+  address: '140.143.217.68',
+  port: 80,
+  name: 'RequestError',
+  data: undefined,
+  path: '/gateway/scrm-basic/cusFieldConfig/page',
+  status: -1,
+  headers: {},
+  res: [Object]
+}
+2022-07-21 21:34:30,454 ERROR 4440 [-/127.0.0.1/-/24ms POST /api/scrm-web/scrm-basic/cusFieldConfig/page] api 调用失败：url = scrm-basic/cusFieldConfig/page, param = 
+2022-07-21 21:35:06,960 ERROR 4440 [-/undefined/-/75829ms GET /customFields] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = Error: connect ETIMEDOUT 140.143.217.68:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+  errno: -60,
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '140.143.217.68',
+  port: 80,
+  name: 'RequestError',
+  data: undefined,
+  path: '/gateway/scrm-basic/permissionInfo/getUserPermissionInfo',
+  status: -1,
+  headers: {},
+  res: [Object]
+}
+2022-07-21 21:35:06,961 ERROR 4440 [-/undefined/-/75830ms GET /customFields] api 调用失败：url = scrm-basic/permissionInfo/getUserPermissionInfo, param = 
+2022-07-21 22:08:43,283 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1957739ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 22:48:45,109 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2362074ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 23:20:18,110 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1852342ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-21 23:51:25,005 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1826398ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-22 00:30:32,229 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2306477ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+

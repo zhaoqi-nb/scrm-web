@@ -1,0 +1,96 @@
+.customer-label-tabs {
+  .ant-tabs-tab {
+    padding: 12px 0;
+    margin-left: 24px;
+  }
+}
+.customer-label-content {
+  display: flex;
+  .content-left {
+    flex: 0 0 180px;
+    border-right: 1px solid #e1e8f0;
+    padding-right: 8px;
+    padding-top: 16px;
+    &-top {
+      height: 32px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #262626;
+      line-height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .anticon {
+        font-size: 16px;
+        cursor: pointer;
+        &:hover {
+          color: #0678ff;
+        }
+      }
+    }
+    .group-list-menu {
+      border: none;
+      .ant-menu-item {
+        margin-bottom: 0;
+        height: 32px;
+        line-height: 32px;
+        padding: 0 8px;
+        &:hover {
+          .menu-item-anticon {
+            display: flex !important;
+          }
+        }
+        .ant-menu-title-content {
+          display: flex;
+          font-size: 13px;
+          align-items: center;
+          justify-content: space-between;
+          .menu-item-anticon {
+            display: none;
+            .anticon:first-child {
+              margin-right: 8px;
+            }
+            .anticon {
+              font-size: 16px;
+              margin-left: 0;
+              color: #262626;
+            }
+          }
+        }
+        &:active {
+          background: #e6f1ff;
+          color: #0678ff;
+        }
+      }
+      .ant-menu-item-selected {
+        background: #e6f1ff;
+        border-radius: 4px;
+        color: #0678ff;
+      }
+    }
+  }
+  .group-name {
+    height: 32px;
+    font-size: 13px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #262626;
+    line-height: 32px;
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .label-tips {
+    background: #f0f7ff;
+    border-radius: 8px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    .anticon {
+      color: #0678ff;
+      font-size: 16px;
+      margin-right: 8px;
+    }
+  }
+}

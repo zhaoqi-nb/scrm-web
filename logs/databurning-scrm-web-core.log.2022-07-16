@@ -1,0 +1,35 @@
+2022-07-16 09:00:07,597 INFO 59023 [egg-logrotator] app logger reload: got log-reload message
+2022-07-16 09:17:27,012 WARN 59023 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-16 09:17:27,012 WARN 59023 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-16 13:46:08,017 WARN 59023 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-16 13:46:08,017 WARN 59023 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-16 13:49:17,959 INFO 80753 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"databurning-scrm-web.log","coreLogName":"databurning-scrm-web-core.log","agentLogName":"databurning-scrm-web-agent.log","errorLogName":"databurning-scrm-web.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-16 13:49:18,005 INFO 80753 [egg-multipart] stream mode enable
+2022-07-16 13:49:18,367 INFO 80753 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/public
+2022-07-16 13:49:18,372 INFO 80753 [egg-security] use methodnoallow middleware
+2022-07-16 13:49:18,374 INFO 80753 [egg-security] use noopen middleware
+2022-07-16 13:49:18,376 INFO 80753 [egg-security] use nosniff middleware
+2022-07-16 13:49:18,378 INFO 80753 [egg-security] use xssProtection middleware
+2022-07-16 13:49:18,380 INFO 80753 [egg-security] use xframe middleware
+2022-07-16 13:49:18,382 INFO 80753 [egg-security] use dta middleware
+2022-07-16 13:49:18,383 INFO 80753 [egg-security] compose 6 middlewares into one security middleware
+2022-07-16 13:49:18,416 INFO 80753 [egg:core] dump config after load, 7ms
+2022-07-16 13:49:18,437 INFO 80753 [egg-watcher:application] watcher start success
+2022-07-16 13:49:18,447 INFO 80753 [egg:core] dump config after ready, 8ms
+2022-07-16 13:49:50,194 INFO 80753 [egg-view-nunjucks] loading templates from ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/view"]
+2022-07-16 13:59:19,181 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-16 13:59:19,182 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-16 14:31:30,010 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-16 14:31:30,010 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-16 17:45:12,017 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-16 17:45:12,018 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-16 18:46:35,011 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-16 18:46:35,012 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-17 05:47:36,091 WARN 80753 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-17 05:47:36,307 WARN 80753 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-17 05:47:36,445 INFO 80753 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1c/rlxxjm8j72b3d5bv108hct740000gn/T/egg-multipart-tmp/databurning-scrm-web"
+2022-07-17 05:47:36,462 INFO 80753 [egg-logrotator] start remove /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs files: databurning-scrm-web-agent.log.2022-07-06, databurning-scrm-web-core.log.2022-07-06, databurning-scrm-web.err.2022-07-06, databurning-scrm-web.log.2022-07-06, egg-schedule.log.2022-07-06
+2022-07-17 05:47:36,495 INFO 80753 [egg-logrotator] clean all log before 10 days
+2022-07-17 05:47:36,540 INFO 80753 [-/127.0.0.1/-/98ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-07-17 05:47:36,546 INFO 80753 [egg-logrotator] broadcast log-reload
+2022-07-17 05:47:36,681 INFO 80753 [egg-logrotator] rotate files success by DayRotator, files ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.err -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.err.2022-07-16","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.log.2022-07-16","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-core.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-core.log.2022-07-16","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/egg-schedule.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/egg-schedule.log.2022-07-16","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-agent.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-agent.log.2022-07-16"]

@@ -1,0 +1,237 @@
+2022-03-25 15:50:13,925 DEBUG 36640 [-/127.0.0.1/-/88ms GET /] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 15:50:13,989 DEBUG 36640 [-/127.0.0.1/-/37ms GET /page/error/504] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=504&language=zh_CN
+2022-03-25 15:50:14,048 DEBUG 36640 [-/127.0.0.1/-/96ms GET /page/error/504] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 15:50:14,049 ERROR 36640 [-/127.0.0.1/-/97ms GET /page/error/504] -------------------------
+2022-03-25 15:50:14,049 ERROR 36640 [-/127.0.0.1/-/97ms GET /page/error/504] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 15:50:14,049 ERROR 36640 [-/127.0.0.1/-/97ms GET /page/error/504] -------------------------
+2022-03-25 15:50:14,084 DEBUG 36640 [-/127.0.0.1/-/30ms GET /page/error/504/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 15:50:14,084 ERROR 36640 [-/127.0.0.1/-/30ms GET /page/error/504/null/null] -------------------------
+2022-03-25 15:50:14,084 ERROR 36640 [-/127.0.0.1/-/30ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 15:50:14,084 ERROR 36640 [-/127.0.0.1/-/30ms GET /page/error/504/null/null] -------------------------
+2022-03-25 15:50:14,144 DEBUG 36640 [-/127.0.0.1/-/90ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 15:50:14,183 DEBUG 36640 [-/127.0.0.1/-/129ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 15:50:14,245 DEBUG 36640 [-/127.0.0.1/-/191ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 15:50:14,294 DEBUG 36640 [-/127.0.0.1/-/240ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=504&level=6&language=zh_CN
+2022-03-25 15:50:16,488 DEBUG 36640 [-/127.0.0.1/-/23ms GET /page/error/404] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=404&language=zh_CN
+2022-03-25 15:50:16,557 DEBUG 36640 [-/127.0.0.1/-/92ms GET /page/error/404] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 15:50:16,557 ERROR 36640 [-/127.0.0.1/-/92ms GET /page/error/404] -------------------------
+2022-03-25 15:50:16,557 ERROR 36640 [-/127.0.0.1/-/92ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 15:50:16,557 ERROR 36640 [-/127.0.0.1/-/92ms GET /page/error/404] -------------------------
+2022-03-25 15:50:16,578 DEBUG 36640 [-/127.0.0.1/-/15ms GET /page/error/404/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 15:50:16,578 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] -------------------------
+2022-03-25 15:50:16,578 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 15:50:16,578 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] -------------------------
+2022-03-25 15:50:16,625 DEBUG 36640 [-/127.0.0.1/-/63ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 15:50:16,656 DEBUG 36640 [-/127.0.0.1/-/94ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 15:50:16,719 DEBUG 36640 [-/127.0.0.1/-/157ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 15:50:16,770 DEBUG 36640 [-/127.0.0.1/-/208ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=404&level=6&language=zh_CN
+2022-03-25 17:08:16,212 DEBUG 36640 [-/127.0.0.1/-/53ms GET /page/error/504/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:08:16,212 ERROR 36640 [-/127.0.0.1/-/53ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:08:16,212 ERROR 36640 [-/127.0.0.1/-/53ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:08:16,212 ERROR 36640 [-/127.0.0.1/-/53ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:08:16,271 DEBUG 36640 [-/127.0.0.1/-/112ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:08:16,328 DEBUG 36640 [-/127.0.0.1/-/169ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:08:16,385 DEBUG 36640 [-/127.0.0.1/-/226ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:08:16,447 DEBUG 36640 [-/127.0.0.1/-/288ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=504&level=6&language=zh_CN
+2022-03-25 17:08:23,570 DEBUG 36640 [-/127.0.0.1/-/42ms GET /page/error/404] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=404&language=zh_CN
+2022-03-25 17:08:23,636 DEBUG 36640 [-/127.0.0.1/-/108ms GET /page/error/404] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:08:23,636 ERROR 36640 [-/127.0.0.1/-/108ms GET /page/error/404] -------------------------
+2022-03-25 17:08:23,637 ERROR 36640 [-/127.0.0.1/-/108ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:08:23,637 ERROR 36640 [-/127.0.0.1/-/109ms GET /page/error/404] -------------------------
+2022-03-25 17:08:23,692 DEBUG 36640 [-/127.0.0.1/-/28ms GET /page/error/404/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:08:23,693 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:08:23,693 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:08:23,693 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:08:23,731 DEBUG 36640 [-/127.0.0.1/-/67ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:08:23,759 DEBUG 36640 [-/127.0.0.1/-/95ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:08:23,810 DEBUG 36640 [-/127.0.0.1/-/146ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:08:23,868 DEBUG 36640 [-/127.0.0.1/-/204ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=404&level=6&language=zh_CN
+2022-03-25 17:08:29,167 DEBUG 36640 [-/127.0.0.1/-/35ms GET /page/error/504/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:08:29,167 ERROR 36640 [-/127.0.0.1/-/35ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:08:29,167 ERROR 36640 [-/127.0.0.1/-/35ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:08:29,167 ERROR 36640 [-/127.0.0.1/-/35ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:08:29,220 DEBUG 36640 [-/127.0.0.1/-/88ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:08:29,247 DEBUG 36640 [-/127.0.0.1/-/115ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:08:29,323 DEBUG 36640 [-/127.0.0.1/-/191ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:08:29,365 DEBUG 36640 [-/127.0.0.1/-/233ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=504&level=6&language=zh_CN
+2022-03-25 17:08:31,226 DEBUG 36640 [-/127.0.0.1/-/45ms GET /page/error/404] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=404&language=zh_CN
+2022-03-25 17:08:31,280 DEBUG 36640 [-/127.0.0.1/-/99ms GET /page/error/404] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:08:31,281 ERROR 36640 [-/127.0.0.1/-/100ms GET /page/error/404] -------------------------
+2022-03-25 17:08:31,281 ERROR 36640 [-/127.0.0.1/-/100ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:08:31,281 ERROR 36640 [-/127.0.0.1/-/100ms GET /page/error/404] -------------------------
+2022-03-25 17:08:31,305 DEBUG 36640 [-/127.0.0.1/-/17ms GET /page/error/404/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:08:31,306 ERROR 36640 [-/127.0.0.1/-/18ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:08:31,306 ERROR 36640 [-/127.0.0.1/-/18ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:08:31,306 ERROR 36640 [-/127.0.0.1/-/18ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:08:31,347 DEBUG 36640 [-/127.0.0.1/-/59ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:08:31,375 DEBUG 36640 [-/127.0.0.1/-/87ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:08:31,428 DEBUG 36640 [-/127.0.0.1/-/140ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:08:31,473 DEBUG 36640 [-/127.0.0.1/-/185ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=404&level=6&language=zh_CN
+2022-03-25 17:09:03,623 DEBUG 36640 [-/127.0.0.1/-/37ms GET /page/error/504/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:09:03,623 ERROR 36640 [-/127.0.0.1/-/37ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:09:03,623 ERROR 36640 [-/127.0.0.1/-/37ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:09:03,623 ERROR 36640 [-/127.0.0.1/-/37ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:09:03,682 DEBUG 36640 [-/127.0.0.1/-/96ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:09:03,716 DEBUG 36640 [-/127.0.0.1/-/130ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:09:03,771 DEBUG 36640 [-/127.0.0.1/-/185ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:09:03,813 DEBUG 36640 [-/127.0.0.1/-/227ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=504&level=6&language=zh_CN
+2022-03-25 17:09:08,065 DEBUG 36640 [-/127.0.0.1/-/39ms GET /page/error/404] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=404&language=zh_CN
+2022-03-25 17:09:08,131 DEBUG 36640 [-/127.0.0.1/-/105ms GET /page/error/404] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:09:08,131 ERROR 36640 [-/127.0.0.1/-/105ms GET /page/error/404] -------------------------
+2022-03-25 17:09:08,131 ERROR 36640 [-/127.0.0.1/-/105ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:09:08,131 ERROR 36640 [-/127.0.0.1/-/105ms GET /page/error/404] -------------------------
+2022-03-25 17:09:08,167 DEBUG 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:09:08,167 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:09:08,167 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:09:08,167 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:09:08,206 DEBUG 36640 [-/127.0.0.1/-/68ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:09:08,237 DEBUG 36640 [-/127.0.0.1/-/99ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:09:08,289 DEBUG 36640 [-/127.0.0.1/-/151ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:09:08,327 DEBUG 36640 [-/127.0.0.1/-/189ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=404&level=6&language=zh_CN
+2022-03-25 17:09:12,552 DEBUG 36640 [-/127.0.0.1/-/32ms GET /page/error/504/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:09:12,552 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:09:12,552 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:09:12,553 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:09:12,625 DEBUG 36640 [-/127.0.0.1/-/105ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:09:12,652 DEBUG 36640 [-/127.0.0.1/-/131ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:09:12,705 DEBUG 36640 [-/127.0.0.1/-/185ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:09:12,746 DEBUG 36640 [-/127.0.0.1/-/226ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=504&level=6&language=zh_CN
+2022-03-25 17:09:15,250 DEBUG 36640 [-/127.0.0.1/-/45ms GET /page/error/404] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=404&language=zh_CN
+2022-03-25 17:09:15,304 DEBUG 36640 [-/127.0.0.1/-/99ms GET /page/error/404] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:09:15,304 ERROR 36640 [-/127.0.0.1/-/99ms GET /page/error/404] -------------------------
+2022-03-25 17:09:15,304 ERROR 36640 [-/127.0.0.1/-/99ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:09:15,304 ERROR 36640 [-/127.0.0.1/-/99ms GET /page/error/404] -------------------------
+2022-03-25 17:09:15,324 DEBUG 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:09:15,324 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:09:15,324 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:09:15,324 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:09:15,364 DEBUG 36640 [-/127.0.0.1/-/56ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:09:15,393 DEBUG 36640 [-/127.0.0.1/-/85ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:09:15,449 DEBUG 36640 [-/127.0.0.1/-/141ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:09:15,487 DEBUG 36640 [-/127.0.0.1/-/179ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=404&level=6&language=zh_CN
+2022-03-25 17:11:47,589 DEBUG 36640 [-/127.0.0.1/-/37ms GET /page/error/504/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:11:47,589 ERROR 36640 [-/127.0.0.1/-/39ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:11:47,589 ERROR 36640 [-/127.0.0.1/-/39ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:11:47,589 ERROR 36640 [-/127.0.0.1/-/39ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:11:47,671 DEBUG 36640 [-/127.0.0.1/-/121ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:11:47,700 DEBUG 36640 [-/127.0.0.1/-/149ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:11:47,779 DEBUG 36640 [-/127.0.0.1/-/229ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:11:47,822 DEBUG 36640 [-/127.0.0.1/-/272ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=504&level=6&language=zh_CN
+2022-03-25 17:11:49,641 DEBUG 36640 [-/127.0.0.1/-/101ms GET /page/error/404] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=404&language=zh_CN
+2022-03-25 17:11:49,706 DEBUG 36640 [-/127.0.0.1/-/166ms GET /page/error/404] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:11:49,706 ERROR 36640 [-/127.0.0.1/-/166ms GET /page/error/404] -------------------------
+2022-03-25 17:11:49,706 ERROR 36640 [-/127.0.0.1/-/166ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:11:49,706 ERROR 36640 [-/127.0.0.1/-/166ms GET /page/error/404] -------------------------
+2022-03-25 17:11:49,734 DEBUG 36640 [-/127.0.0.1/-/22ms GET /page/error/404/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:11:49,734 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:11:49,734 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:11:49,734 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:11:49,812 DEBUG 36640 [-/127.0.0.1/-/101ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:11:49,843 DEBUG 36640 [-/127.0.0.1/-/132ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:11:49,899 DEBUG 36640 [-/127.0.0.1/-/188ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:11:49,953 DEBUG 36640 [-/127.0.0.1/-/242ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=404&level=6&language=zh_CN
+2022-03-25 17:11:55,200 DEBUG 36640 [-/127.0.0.1/-/47ms GET /page/error/504/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:11:55,201 ERROR 36640 [-/127.0.0.1/-/48ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:11:55,201 ERROR 36640 [-/127.0.0.1/-/48ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:11:55,201 ERROR 36640 [-/127.0.0.1/-/48ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:11:55,262 DEBUG 36640 [-/127.0.0.1/-/109ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:11:55,295 DEBUG 36640 [-/127.0.0.1/-/142ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:11:55,354 DEBUG 36640 [-/127.0.0.1/-/201ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:11:55,398 DEBUG 36640 [-/127.0.0.1/-/245ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=504&level=6&language=zh_CN
+2022-03-25 17:11:56,870 DEBUG 36640 [-/127.0.0.1/-/35ms GET /page/error/404] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=404&language=zh_CN
+2022-03-25 17:11:56,926 DEBUG 36640 [-/127.0.0.1/-/91ms GET /page/error/404] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:11:56,926 ERROR 36640 [-/127.0.0.1/-/91ms GET /page/error/404] -------------------------
+2022-03-25 17:11:56,927 ERROR 36640 [-/127.0.0.1/-/91ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:11:56,927 ERROR 36640 [-/127.0.0.1/-/92ms GET /page/error/404] -------------------------
+2022-03-25 17:11:56,967 DEBUG 36640 [-/127.0.0.1/-/33ms GET /page/error/404/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:11:56,967 ERROR 36640 [-/127.0.0.1/-/33ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:11:56,967 ERROR 36640 [-/127.0.0.1/-/33ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:11:56,967 ERROR 36640 [-/127.0.0.1/-/33ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:11:57,012 DEBUG 36640 [-/127.0.0.1/-/78ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:11:57,039 DEBUG 36640 [-/127.0.0.1/-/105ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:11:57,100 DEBUG 36640 [-/127.0.0.1/-/166ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:11:57,156 DEBUG 36640 [-/127.0.0.1/-/222ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=404&level=6&language=zh_CN
+2022-03-25 17:16:51,058 DEBUG 36640 [-/127.0.0.1/-/82ms GET /page/error/504/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:16:51,058 ERROR 36640 [-/127.0.0.1/-/82ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:16:51,058 ERROR 36640 [-/127.0.0.1/-/82ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:16:51,058 ERROR 36640 [-/127.0.0.1/-/82ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:16:51,169 DEBUG 36640 [-/127.0.0.1/-/193ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:16:51,224 DEBUG 36640 [-/127.0.0.1/-/248ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:16:51,284 DEBUG 36640 [-/127.0.0.1/-/308ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:16:51,336 DEBUG 36640 [-/127.0.0.1/-/360ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=504&level=6&language=zh_CN
+2022-03-25 17:16:53,883 DEBUG 36640 [-/127.0.0.1/-/82ms GET /page/error/404] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=404&language=zh_CN
+2022-03-25 17:16:54,093 DEBUG 36640 [-/127.0.0.1/-/291ms GET /page/error/404] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:16:54,093 ERROR 36640 [-/127.0.0.1/-/292ms GET /page/error/404] -------------------------
+2022-03-25 17:16:54,093 ERROR 36640 [-/127.0.0.1/-/292ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:16:54,093 ERROR 36640 [-/127.0.0.1/-/292ms GET /page/error/404] -------------------------
+2022-03-25 17:16:54,141 DEBUG 36640 [-/127.0.0.1/-/39ms GET /page/error/404/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:16:54,141 ERROR 36640 [-/127.0.0.1/-/40ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:16:54,141 ERROR 36640 [-/127.0.0.1/-/40ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:16:54,141 ERROR 36640 [-/127.0.0.1/-/40ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:16:54,190 DEBUG 36640 [-/127.0.0.1/-/89ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:16:54,221 DEBUG 36640 [-/127.0.0.1/-/120ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:16:54,291 DEBUG 36640 [-/127.0.0.1/-/190ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:16:54,379 DEBUG 36640 [-/127.0.0.1/-/278ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=404&level=6&language=zh_CN
+2022-03-25 17:17:22,008 DEBUG 36640 [-/127.0.0.1/-/159ms GET /page/error/504/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:17:22,009 ERROR 36640 [-/127.0.0.1/-/160ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:17:22,009 ERROR 36640 [-/127.0.0.1/-/160ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:17:22,009 ERROR 36640 [-/127.0.0.1/-/160ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:17:22,073 DEBUG 36640 [-/127.0.0.1/-/224ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:17:22,123 DEBUG 36640 [-/127.0.0.1/-/274ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:17:22,327 DEBUG 36640 [-/127.0.0.1/-/478ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:17:22,387 DEBUG 36640 [-/127.0.0.1/-/538ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=504&level=6&language=zh_CN
+2022-03-25 17:17:24,095 DEBUG 36640 [-/127.0.0.1/-/43ms GET /page/error/404] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=404&language=zh_CN
+2022-03-25 17:17:24,180 DEBUG 36640 [-/127.0.0.1/-/128ms GET /page/error/404] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:17:24,180 ERROR 36640 [-/127.0.0.1/-/128ms GET /page/error/404] -------------------------
+2022-03-25 17:17:24,180 ERROR 36640 [-/127.0.0.1/-/128ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:17:24,180 ERROR 36640 [-/127.0.0.1/-/128ms GET /page/error/404] -------------------------
+2022-03-25 17:17:24,220 DEBUG 36640 [-/127.0.0.1/-/32ms GET /page/error/404/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:17:24,220 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:17:24,220 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:17:24,220 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:17:24,299 DEBUG 36640 [-/127.0.0.1/-/111ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:17:24,434 DEBUG 36640 [-/127.0.0.1/-/246ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:17:24,503 DEBUG 36640 [-/127.0.0.1/-/315ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:17:24,555 DEBUG 36640 [-/127.0.0.1/-/367ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=404&level=6&language=zh_CN
+2022-03-25 17:19:59,328 DEBUG 36640 [-/127.0.0.1/-/47ms GET /page/error/504/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:19:59,329 ERROR 36640 [-/127.0.0.1/-/47ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:19:59,329 ERROR 36640 [-/127.0.0.1/-/48ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:19:59,329 ERROR 36640 [-/127.0.0.1/-/48ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:19:59,389 DEBUG 36640 [-/127.0.0.1/-/108ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:19:59,417 DEBUG 36640 [-/127.0.0.1/-/136ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:19:59,487 DEBUG 36640 [-/127.0.0.1/-/206ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:19:59,539 DEBUG 36640 [-/127.0.0.1/-/258ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=504&level=6&language=zh_CN
+2022-03-25 17:20:02,039 DEBUG 36640 [-/127.0.0.1/-/48ms GET /page/error/404] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=404&language=zh_CN
+2022-03-25 17:20:02,106 DEBUG 36640 [-/127.0.0.1/-/116ms GET /page/error/404] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:20:02,107 ERROR 36640 [-/127.0.0.1/-/117ms GET /page/error/404] -------------------------
+2022-03-25 17:20:02,107 ERROR 36640 [-/127.0.0.1/-/117ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:20:02,107 ERROR 36640 [-/127.0.0.1/-/117ms GET /page/error/404] -------------------------
+2022-03-25 17:20:02,134 DEBUG 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:20:02,134 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:20:02,134 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:20:02,134 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:20:02,177 DEBUG 36640 [-/127.0.0.1/-/66ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:20:02,211 DEBUG 36640 [-/127.0.0.1/-/100ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:20:02,269 DEBUG 36640 [-/127.0.0.1/-/158ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:20:02,316 DEBUG 36640 [-/127.0.0.1/-/205ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=404&level=6&language=zh_CN
+2022-03-25 17:20:41,046 DEBUG 36640 [-/127.0.0.1/-/28ms GET /page/error/504/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:20:41,047 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:20:41,047 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:20:41,047 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:20:41,099 DEBUG 36640 [-/127.0.0.1/-/81ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:20:41,130 DEBUG 36640 [-/127.0.0.1/-/112ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:20:41,185 DEBUG 36640 [-/127.0.0.1/-/167ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:20:41,225 DEBUG 36640 [-/127.0.0.1/-/207ms GET /page/error/504/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=504&level=6&language=zh_CN
+2022-03-25 17:20:44,257 DEBUG 36640 [-/127.0.0.1/-/32ms GET /page/error/404] http://172.19.228.123/api/outer/getResDtoTree?operatorId=null&sysUniqueCode=ranshu-finance-node&resId=404&language=zh_CN
+2022-03-25 17:20:44,311 DEBUG 36640 [-/127.0.0.1/-/86ms GET /page/error/404] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:20:44,312 ERROR 36640 [-/127.0.0.1/-/87ms GET /page/error/404] -------------------------
+2022-03-25 17:20:44,312 ERROR 36640 [-/127.0.0.1/-/87ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:20:44,312 ERROR 36640 [-/127.0.0.1/-/87ms GET /page/error/404] -------------------------
+2022-03-25 17:20:44,491 DEBUG 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] http://172.19.228.122:28580/research-finance-backend/usertemplate/getUserTemplateList?rootInstantiationId=null&language=zh_CN
+2022-03-25 17:20:44,491 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:20:44,491 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:20:44,491 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:20:44,557 DEBUG 36640 [-/127.0.0.1/-/89ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/getAllSystemAndVersion?sysUserId=null&language=zh_CN
+2022-03-25 17:20:44,584 DEBUG 36640 [-/127.0.0.1/-/116ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryParentAndSubResDtoTreeForSearch?sysUniqueCode=ranshu-finance-node&operatorId=null&userGroupId=-1&accessFlag=1&resId=null&level=5&language=zh_CN
+2022-03-25 17:20:44,675 DEBUG 36640 [-/127.0.0.1/-/207ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&level=3&language=zh_CN
+2022-03-25 17:20:44,722 DEBUG 36640 [-/127.0.0.1/-/254ms GET /page/error/404/null/null] http://172.19.228.122:18180/privilege//usermanager/queryResDtoTree?sysUniqueCode=ranshu-finance-node&operatorId=null&resId=404&level=6&language=zh_CN

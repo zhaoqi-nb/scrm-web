@@ -1,0 +1,83 @@
+.tableContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  .title1 {
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .searchBox {
+    margin-bottom: 16px;
+  }
+  .emptyBox {
+    width: 100%;
+    .text {
+      color: #262626;
+      margin-bottom: 10px;
+    }
+    img {
+      width: 91px;
+      height: auto;
+    }
+  }
+  .textBox {
+    width: 100%;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .videoBox {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 50px;
+    white-space: nowrap;
+  }
+  .fileBox {
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .imgText {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 50px;
+    white-space: nowrap;
+  }
+  .main {
+    flex: 1;
+    .ant-table-wrapper {
+      width: 100%;
+    }
+  }
+  .operateBox {
+    a {
+      margin-right: 5px;
+    }
+  }
+  .imgBox1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    img {
+      width: 60px;
+      height: auto;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+    .icon {
+      font-size: 19px;
+      position: absolute;
+      left: 21px;
+      top: 33px;
+      color: white;
+    }
+  }
+}

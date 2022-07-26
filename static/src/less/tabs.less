@@ -1,0 +1,61 @@
+.ant-tabs {
+  font-size: 12px;
+  color: #595959;
+}
+
+.ant-tabs-card {
+  // min-height: 500px;
+  height: 100%;
+  .ant-tabs-content-holder {
+    height: 100%;
+    .ant-tabs-content {
+      height: 100%;
+    }
+  }
+}
+
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-bottom > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before,
+.ant-tabs-bottom > div > .ant-tabs-nav::before {
+  // border-bottom: 1px solid #e1e8f0;
+}
+
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab {
+  background: transparent;
+}
+
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active {
+  background: @white-base;
+  .ant-tabs-tab-btn {
+    text-shadow: none;
+    color: #595959;
+  }
+}
+
+.ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-bottom > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-bottom > div > .ant-tabs-nav .ant-tabs-ink-bar {
+  height: 3px;
+  background: #0678ff;
+  border-radius: 1.5px;
+}
+
+.ant-tabs-tab {
+  a {
+    color: inherit;
+  }
+  &:hover {
+    color: #0678ff !important;
+  }
+}
+
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+  // padding: 0 12px;
+
+  &:hover .ant-tabs-tab-btn {
+    color: #0678ff !important;
+  }
+}

@@ -1,0 +1,29 @@
+.contentWrapper {
+  display: flex;
+  flex: 1;
+  position: relative;
+  height: 0;
+
+  .rightContnet {
+    flex: 1;
+    background: #f5f7fa;
+    width: 0;
+    .rightContnet-contentWrapper {
+      background-color: #fff;
+      height: 100%;
+      padding: 0 24px;
+      display: flow-root; //解决高度塌陷
+      overflow: auto;
+    }
+    .customPage {
+      width: calc(100vw - 208px);
+      flex: 1;
+    }
+  }
+}
+
+.symbol {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}

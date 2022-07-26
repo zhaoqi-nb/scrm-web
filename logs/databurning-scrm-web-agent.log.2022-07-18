@@ -1,0 +1,113 @@
+2022-07-18 10:09:08,826 INFO 80744 [egg-logrotator] agent logger reload: got log-reload message
+2022-07-18 10:28:11,020 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 364967ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 12:22:31,007 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 1798385ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 13:38:37,007 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 964689ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 15:56:17,032 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 398399ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 16:16:50,006 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 1192868ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 16:20:20,015 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 170189ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 16:23:47,024 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 166971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 17:37:34,115 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 104789ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 18:10:09,106 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 1053989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 18:42:25,108 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 1895857ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 19:19:18,008 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 2173465ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 19:26:50,009 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 411521ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-18 20:42:36,114 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 2164791ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+
+2022-07-19 10:00:00,168 ERROR 80744 nodejs.ClusterClientNoResponseError: client no response in 47843894ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 80744
+hostname: rs-front-01.local
+

@@ -1,0 +1,12 @@
+2022-07-25 10:16:48,639 DEBUG 4406 [Job#165871540708737672292567565256] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/rotate_by_file.js finish event received by agent from worker#4440
+2022-07-26 00:09:55,119 DEBUG 4440 [Job#165876539511138172153907800377] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/clean_log.js task received by app
+2022-07-26 00:09:55,119 INFO 4440 [Job#165876539511138172153907800377] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2022-07-26 00:09:55,120 DEBUG 4440 [Job#165876539511938172153983434827] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/rotate_by_file.js task received by app
+2022-07-26 00:09:55,120 INFO 4440 [Job#165876539511938172153983434827] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2022-07-26 00:09:55,150 INFO 4440 [Job#165876539511138172153907800377] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 31ms. 
+2022-07-26 00:09:55,153 INFO 4440 [Job#165876539511938172153983434827] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 32ms. 
+2022-07-26 00:09:55,111 DEBUG 4406 [Job#165876539511138172153907800377] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/clean_log.js triggered, send random by agent
+2022-07-26 00:09:55,118 INFO 4406 [Timer] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 85804888ms at 2022-07-27 00:00:00.006
+2022-07-26 00:09:55,119 DEBUG 4406 [Job#165876539511938172153983434827] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/rotate_by_file.js triggered, send random by agent
+2022-07-26 00:09:55,120 INFO 4406 [Timer] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 85805881ms at 2022-07-27 00:00:01.001
+2022-07-26 00:09:55,151 DEBUG 4406 [Job#165876539511138172153907800377] /Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/app/schedule/clean_log.js finish event received by agent from worker#4440

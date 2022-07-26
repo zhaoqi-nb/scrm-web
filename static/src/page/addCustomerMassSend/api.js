@@ -1,0 +1,26 @@
+import Server from '../../plugin/Server'
+
+class Api extends Server {
+  queryAllDepartAndAllMemberAddRoleBoundary() {
+    return this.Http({
+      url: '/api/scrm-web/scrm-basic/roleDataAuthInfo/queryAllDepartAndAllMemberAddRoleBoundary'
+    })
+  }
+
+  saveOrUpdate(data = {}) {
+    return this.HttpPost({
+      url: '/api/scrm-web/qywx-market/bulkMessage/saveOrUpdate',
+      data,
+    })
+  }
+
+  // 查看客户数量
+  checkCount(data = {}) {
+    return this.HttpPost({
+      url: '/api/scrm-web/qywx-market/bulkMessage/count',
+      data,
+    })
+  }
+}
+
+export default new Api()

@@ -1,0 +1,172 @@
+.Overview {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .textDix {
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  .top {
+    box-sizing: border-box;
+    padding: 20px 24px;
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .topBottom {
+      display: flex;
+      margin: 10px 0;
+      .city {
+        margin-left: 10px;
+      }
+      .ant-select {
+        width: 150px;
+      }
+    }
+  }
+  .bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #f5f7fa;
+    .title {
+      font-weight: bold;
+      font-size: 15px;
+      box-sizing: border-box;
+      padding: 10px 24px;
+    }
+    .main {
+      flex: 1;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+      .mainTitle {
+        color: #262626;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 12px 24px;
+      }
+      .mainRender {
+        flex: 1;
+        display: flex;
+        box-sizing: border-box;
+        padding: 20px;
+        .mainLeft {
+          flex: 1;
+          border: 1px solid #e1e8f0;
+        }
+        .mainRight {
+          width: 50px;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .select {
+            color: #0678ff;
+          }
+          > div {
+            background: #f5f7fa;
+            font-size: 20px;
+            width: 34px;
+            height: 34px;
+            display: flex;
+            color: black;
+            margin-bottom: 20px;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+    .banner {
+      display: flex;
+      margin: 0 12px;
+      > div {
+        flex: 1;
+        background: white;
+        margin: 0 8px;
+        height: 120px;
+      }
+
+      .bannerRight {
+        width: 310px !important;
+        flex: none !important;
+      }
+      .bannerLeft {
+        display: flex;
+        .left {
+          flex: 1;
+          align-items: center;
+          display: flex;
+          box-sizing: border-box;
+          padding-left: 36px;
+          .leftTitle {
+            color: #84888c;
+          }
+          .leftMain {
+            color: #262626;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 5px;
+          }
+          .iconBox {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            background: rgba(70, 201, 58, 0.1);
+            border-radius: 50%;
+            margin-right: 16px;
+            color: #46c93a;
+            img {
+              width: 90%;
+              height: 90%;
+            }
+          }
+        }
+        .right {
+          width: 40%;
+          display: flex;
+          flex-direction: column;
+          box-sizing: border-box;
+          padding-top: 30px;
+          // justify-content: center;
+          align-items: center;
+          .shangsan {
+            width: 15px;
+            height: 15px;
+            background: linear-gradient(to bottom right, #fff 0%, #fff 49.9%, #ff4757 100%, #ff4757 0%);
+            transform: rotate(225deg); /*顺时针旋转90°*/
+            margin-right: 20px;
+          }
+          .rightItem {
+            display: flex;
+            align-items: center;
+          }
+          .mainItem {
+            box-sizing: border-box;
+            padding-bottom: 7px;
+          }
+          .mainItemBottom {
+            box-sizing: border-box;
+            padding-top: 7px;
+          }
+          .xiasan {
+            width: 15px;
+            margin-right: 20px;
+            height: 15px;
+            background: linear-gradient(to bottom right, #fff 0%, #fff 49.9%, #46c93a 100%, #46c93a 0%);
+            transform: rotate(45deg); /*顺时针旋转90°*/
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,219 @@
+@import '~@less/color.less';
+body {
+  margin: 0;
+  background: @black-body !important;
+}
+.page-title {
+  height: 56px;
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #262626;
+  line-height: 56px;
+}
+.page-label {
+  height: 32px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #262626;
+  line-height: 32px;
+}
+.select-row-div {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  & > :first-child {
+    margin-right: 16px;
+  }
+  .select-col-div {
+    &-disabled {
+      color: #bfbfbf;
+      cursor: not-allowed;
+    }
+    cursor: pointer;
+    .anticon {
+      font-size: 16px;
+      margin: 0 4px 0 8px;
+    }
+    display: flex;
+    align-items: center;
+    height: 32px;
+    background: #f5f7fa;
+    border-radius: 4px;
+    padding-right: 8px;
+    // line-height: 32px;
+    margin-right: 8px;
+  }
+}
+.clue-sign {
+  display: inline-block;
+  span:last-child {
+    margin-right: 5px;
+  }
+  span {
+    height: 18px;
+    width: 18px;
+    border-radius: 2px;
+    margin-left: 2px;
+    color: #ffffff;
+    line-height: 18px;
+    text-align: center;
+    display: inline-block;
+  }
+  &-new {
+    background-color: #6bd461;
+  }
+  &-fang {
+    background-color: #ff6c79;
+  }
+  &-fen {
+    background-color: #ffc833;
+  }
+  &-ti {
+    background-color: #6aaeff;
+  }
+  &-zhuan {
+    background-color: #ff6c79;
+  }
+}
+.text-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ant-menu-title-content {
+  .font-blod {
+    font-weight: bold !important;
+  }
+}
+.box-clamp-1 {
+  text-align: justify;
+  overflow: hidden; //首先固定宽高，然后让溢出的文字隐藏
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; //表示显示的行数
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  white-space: normal;
+}
+.box-clamp-2 {
+  text-align: justify;
+  overflow: hidden; //首先固定宽高，然后让溢出的文字隐藏
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; //表示显示的行数
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  white-space: normal;
+}
+.add-form-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px;
+  background: #f5f7fa;
+  border-radius: 4px;
+  border: 1px solid #e1e8f0;
+  cursor: pointer;
+  &:hover {
+    background: #fff;
+    border: 1px solid #0678ff;
+  }
+}
+
+.select-content {
+  background: #f5f7fa;
+  border-radius: 4px;
+  padding: 4px 12px;
+  margin-top: 12px;
+  &-label {
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    padding: 0 6px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    line-height: 20px;
+    background: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e5e6eb;
+  }
+}
+//树形结构渲染图片
+.itemBox {
+  display: flex;
+  align-items: center;
+  img {
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+}
+.add-label-buttton {
+  color: #0678ff;
+  cursor: pointer;
+}
+.customer-type {
+  font-size: 12px;
+  font-weight: 400;
+  color: #46c93a;
+  display: inline-block;
+  margin-left: 8px;
+}
+.scrm-tabs {
+  .ant-tabs-ink-bar-animated {
+    display: none;
+  }
+  .ant-tabs-tab-active::after {
+    content: '';
+    background: #0678ff;
+    height: 3px;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 24px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 2px;
+  }
+  &&.borderb {
+    .ant-tabs-nav {
+      border-bottom: 1px solid #e1e8f0;
+    }
+  }
+}
+.list-page-input {
+  width: 266px !important;
+}
+.list-page-select {
+  width: 330px;
+}
+.form-affix-button {
+  text-align: center;
+  padding: 12px 0;
+  box-shadow: -2px -2px 4px 0px rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 280px);
+  right: 0;
+}
+.f-title {
+  line-height: 30px;
+  font-size: 14px;
+  text-align: right;
+  display: inline-block;
+}
+.f-title::after {
+  content: '：';
+  width: 5px;
+  height: 10px;
+}
+.draw-form-affix-button {
+  text-align: right;
+  padding: 12px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

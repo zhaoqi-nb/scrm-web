@@ -1,0 +1,176 @@
+.flexDetail {
+  display: flex;
+}
+.title {
+  font-weight: bold;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 24px;
+  padding-bottom: 10px;
+}
+.drawerDetail {
+  .ant-drawer-body {
+    padding: 0;
+  }
+  .ant-drawer-header-title {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.DetailDrawer {
+  box-sizing: border-box;
+  padding-bottom: 24px;
+  .chartsDiv {
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0 24px;
+    border: 1px solid #e1e8f0;
+  }
+  .tableDiv {
+    box-sizing: border-box;
+    padding: 0 24px;
+    .ant-table {
+      height: 320px;
+    }
+  }
+  .selectBox {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px;
+    .ant-select {
+      width: 176px;
+      margin-left: 8px;
+    }
+  }
+  .top {
+    .title();
+  }
+  .bottom {
+    box-sizing: border-box;
+    padding: 24px;
+    .ant-select {
+      width: 176px;
+      margin-right: 16px;
+    }
+  }
+  .tableBox {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .selectCharts {
+    color: #0678ff;
+  }
+  .selectCharts::after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 1px;
+    left: 40%;
+    bottom: -10px;
+    background: #0678ff;
+  }
+  .tabsBox {
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+  .tabs {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0px 24px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #e1e8f0;
+    > div {
+      margin-right: 24px;
+      position: relative;
+      cursor: pointer;
+    }
+  }
+  .mainLeft {
+    flex-direction: column;
+    .flexDetail();
+  }
+  .banner {
+    background: #f5f7fa;
+    .bannerTitle {
+      .title();
+    }
+    .bannerMain {
+      box-sizing: border-box;
+      padding: 24px;
+      .bannerWhite {
+        background: white;
+        .flexDetail();
+        .bannerList {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          > div:first-child {
+            font-size: 24px;
+            font-weight: bold;
+            box-sizing: border-box;
+            padding: 12px 0;
+          }
+          > div:last-child {
+            color: #84888c;
+            box-sizing: border-box;
+            padding-bottom: 12px;
+          }
+        }
+      }
+    }
+  }
+  .chartsBox {
+    box-sizing: border-box;
+    .title {
+      .title();
+    }
+  }
+  .topMain {
+    padding: 24px;
+    box-sizing: border-box;
+    .flexDetail();
+    .mainLeft {
+      flex: 1;
+      border-right: 1px solid #eef2f7;
+    }
+    .mainRight {
+      box-sizing: border-box;
+      padding-left: 20px;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      .ant-image {
+        width: 140px;
+        height: 140px;
+      }
+      .opearte {
+        display: flex;
+        justify-content: center;
+        > a:first-child {
+          box-sizing: border-box;
+          padding-right: 10px;
+          border-right: 1px solid #e1e8f0;
+          margin-right: 10px;
+        }
+      }
+    }
+    .leftItem {
+      flex: 1;
+      margin-bottom: 7px;
+      .flexDetail();
+      > div:first-child {
+        color: #595959;
+        width: 70px;
+      }
+    }
+    .rightItem {
+      flex: 1;
+    }
+  }
+}

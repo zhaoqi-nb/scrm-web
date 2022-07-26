@@ -1,0 +1,91 @@
+.kindContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  flex-direction: column;
+  .title {
+    box-sizing: border-box;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .ant-btn {
+      margin-right: 20px;
+    }
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    flex: 1;
+    .select {
+      border-color: #0678ff !important;
+    }
+    .listBox {
+      width: 290px;
+      height: 324px;
+      position: relative;
+      margin-right: 36px;
+      cursor: pointer;
+      border: 1px solid #e1e8f0;
+      border-radius: 8px;
+      display: flex;
+      overflow: hidden;
+      flex-direction: column;
+      .sanjiao {
+        position: absolute;
+        right: -35px;
+        top: -35px;
+        border-width: 35px;
+        border-style: solid;
+        border-color: transparent transparent #0678ff transparent;
+        transform: rotate(45deg);
+      }
+      .tuijian {
+        position: absolute;
+        right: 4.5px;
+        top: 6.5px;
+        color: white;
+        transform: rotate(45deg);
+      }
+      .title {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+      }
+      .last {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px 61px;
+        text-align: center;
+        color: #595959;
+      }
+      .top {
+        height: 170px;
+        box-sizing: border-box;
+        padding-top: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        .result {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          color: #0678ff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: linear-gradient(180deg, rgba(6, 120, 255, 0.1) 0%, rgba(255, 255, 255, 0.08) 100%);
+        }
+      }
+    }
+  }
+}

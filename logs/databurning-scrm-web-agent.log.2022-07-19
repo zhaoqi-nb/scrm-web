@@ -1,0 +1,129 @@
+2022-07-19 10:00:00,241 INFO 80744 [egg-logrotator] agent logger reload: got log-reload message
+2022-07-19 13:56:46,435 INFO 89017 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"databurning-scrm-web.log","coreLogName":"databurning-scrm-web-core.log","agentLogName":"databurning-scrm-web-agent.log","errorLogName":"databurning-scrm-web.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-19 13:56:46,474 INFO 89017 [egg:core] dump config after load, 21ms
+2022-07-19 13:56:46,715 INFO 89017 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"]
+2022-07-19 13:56:46,715 INFO 89017 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app"
+2022-07-19 13:56:46,716 INFO 89017 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config"
+2022-07-19 13:56:46,716 INFO 89017 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks"
+2022-07-19 13:56:46,717 INFO 89017 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy"
+2022-07-19 13:56:46,717 INFO 89017 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"
+2022-07-19 13:56:46,718 INFO 89017 [egg-watcher:agent] watcher start success
+2022-07-19 13:56:46,770 INFO 89017 [egg:core] dump config after ready, 38ms
+2022-07-19 14:45:28,716 INFO 97220 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"databurning-scrm-web.log","coreLogName":"databurning-scrm-web-core.log","agentLogName":"databurning-scrm-web-agent.log","errorLogName":"databurning-scrm-web.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-19 14:45:28,728 INFO 97220 [egg:core] dump config after load, 6ms
+2022-07-19 14:45:28,797 INFO 97220 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"]
+2022-07-19 14:45:28,797 INFO 97220 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app"
+2022-07-19 14:45:28,798 INFO 97220 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config"
+2022-07-19 14:45:28,798 INFO 97220 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks"
+2022-07-19 14:45:28,799 INFO 97220 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy"
+2022-07-19 14:45:28,799 INFO 97220 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"
+2022-07-19 14:45:28,799 INFO 97220 [egg-watcher:agent] watcher start success
+2022-07-19 14:45:28,826 INFO 97220 [egg:core] dump config after ready, 6ms
+2022-07-19 15:18:47,084 INFO 3527 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"databurning-scrm-web.log","coreLogName":"databurning-scrm-web-core.log","agentLogName":"databurning-scrm-web-agent.log","errorLogName":"databurning-scrm-web.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-19 15:18:47,097 INFO 3527 [egg:core] dump config after load, 6ms
+2022-07-19 15:18:47,238 INFO 3527 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"]
+2022-07-19 15:18:47,238 INFO 3527 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app"
+2022-07-19 15:18:47,239 INFO 3527 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config"
+2022-07-19 15:18:47,239 INFO 3527 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks"
+2022-07-19 15:18:47,239 INFO 3527 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy"
+2022-07-19 15:18:47,239 INFO 3527 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"
+2022-07-19 15:18:47,240 INFO 3527 [egg-watcher:agent] watcher start success
+2022-07-19 15:18:47,367 INFO 3527 [egg:core] dump config after ready, 62ms
+2022-07-19 15:22:04,519 INFO 4406 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"databurning-scrm-web.log","coreLogName":"databurning-scrm-web-core.log","agentLogName":"databurning-scrm-web-agent.log","errorLogName":"databurning-scrm-web.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-19 15:22:04,641 INFO 4406 [egg:core] dump config after load, 113ms
+2022-07-19 15:22:04,822 INFO 4406 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"]
+2022-07-19 15:22:04,822 INFO 4406 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app"
+2022-07-19 15:22:04,822 INFO 4406 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/config"
+2022-07-19 15:22:04,823 INFO 4406 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks"
+2022-07-19 15:22:04,823 INFO 4406 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/mocks_proxy"
+2022-07-19 15:22:04,825 INFO 4406 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/app.js"
+2022-07-19 15:22:04,826 INFO 4406 [egg-watcher:agent] watcher start success
+2022-07-19 15:22:04,872 INFO 4406 [egg:core] dump config after ready, 33ms
+2022-07-19 16:47:57,018 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1948227ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-19 17:03:38,012 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 901253ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-19 18:19:31,015 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 812385ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-19 19:23:10,016 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 192469ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-19 21:13:54,011 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1963577ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-19 21:47:43,014 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 1988721ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-19 22:27:42,012 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2358789ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-19 23:01:55,020 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2012880ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-19 23:38:43,011 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2167845ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-19 23:41:21,011 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 117891ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+
+2022-07-20 00:21:39,025 ERROR 4406 nodejs.ClusterClientNoResponseError: client no response in 2377584ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 4406
+hostname: rs-front-01.local
+

@@ -1,0 +1,46 @@
+2022-07-26 00:09:55,160 INFO 4440 [egg-logrotator] app logger reload: got log-reload message
+2022-07-26 00:47:40,011 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 00:47:40,011 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 01:25:28,007 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 01:25:28,008 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 02:05:39,007 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 02:05:39,008 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 02:45:45,008 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 02:45:45,009 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 03:26:17,009 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 03:26:17,009 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 04:01:28,007 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 04:01:28,008 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 04:34:23,013 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 04:34:23,013 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 04:34:23,019 INFO 4440 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1c/rlxxjm8j72b3d5bv108hct740000gn/T/egg-multipart-tmp/databurning-scrm-web"
+2022-07-26 04:34:23,031 INFO 4440 [-/127.0.0.1/-/13ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-07-26 05:11:54,109 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 05:11:54,110 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 05:45:29,009 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 05:45:29,009 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 06:23:41,007 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 06:23:41,008 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 07:03:00,007 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 07:03:00,007 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 07:41:13,008 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 08:13:18,007 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 08:13:18,008 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 08:53:06,009 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 08:53:06,009 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 09:27:19,008 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 09:27:19,008 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 10:00:00,009 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 10:00:00,012 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 10:25:00,010 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 10:25:00,010 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 12:30:49,035 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 12:30:49,040 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 13:11:22,108 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 13:11:22,108 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 13:46:04,007 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 13:46:04,008 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 13:47:48,130 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 13:47:48,130 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-26 15:01:56,125 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-26 15:01:56,126 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again

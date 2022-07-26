@@ -1,0 +1,110 @@
+2022-03-25 15:50:14,049 ERROR 36640 [-/127.0.0.1/-/97ms GET /page/error/504] -------------------------
+2022-03-25 15:50:14,049 ERROR 36640 [-/127.0.0.1/-/97ms GET /page/error/504] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 15:50:14,049 ERROR 36640 [-/127.0.0.1/-/97ms GET /page/error/504] -------------------------
+2022-03-25 15:50:14,084 ERROR 36640 [-/127.0.0.1/-/30ms GET /page/error/504/null/null] -------------------------
+2022-03-25 15:50:14,084 ERROR 36640 [-/127.0.0.1/-/30ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 15:50:14,084 ERROR 36640 [-/127.0.0.1/-/30ms GET /page/error/504/null/null] -------------------------
+2022-03-25 15:50:16,557 ERROR 36640 [-/127.0.0.1/-/92ms GET /page/error/404] -------------------------
+2022-03-25 15:50:16,557 ERROR 36640 [-/127.0.0.1/-/92ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 15:50:16,557 ERROR 36640 [-/127.0.0.1/-/92ms GET /page/error/404] -------------------------
+2022-03-25 15:50:16,578 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] -------------------------
+2022-03-25 15:50:16,578 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 15:50:16,578 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] -------------------------
+2022-03-25 16:30:07,010 ERROR 36638 nodejs.ClusterClientNoResponseError: client no response in 1479554ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 36638
+hostname: rs-front-01.local
+
+2022-03-25 17:08:16,212 ERROR 36640 [-/127.0.0.1/-/53ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:08:16,212 ERROR 36640 [-/127.0.0.1/-/53ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:08:16,212 ERROR 36640 [-/127.0.0.1/-/53ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:08:23,636 ERROR 36640 [-/127.0.0.1/-/108ms GET /page/error/404] -------------------------
+2022-03-25 17:08:23,636 ERROR 36640 [-/127.0.0.1/-/108ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:08:23,637 ERROR 36640 [-/127.0.0.1/-/109ms GET /page/error/404] -------------------------
+2022-03-25 17:08:23,693 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:08:23,693 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:08:23,693 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:08:29,167 ERROR 36640 [-/127.0.0.1/-/35ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:08:29,167 ERROR 36640 [-/127.0.0.1/-/35ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:08:29,167 ERROR 36640 [-/127.0.0.1/-/35ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:08:31,281 ERROR 36640 [-/127.0.0.1/-/100ms GET /page/error/404] -------------------------
+2022-03-25 17:08:31,281 ERROR 36640 [-/127.0.0.1/-/100ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:08:31,281 ERROR 36640 [-/127.0.0.1/-/100ms GET /page/error/404] -------------------------
+2022-03-25 17:08:31,306 ERROR 36640 [-/127.0.0.1/-/18ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:08:31,306 ERROR 36640 [-/127.0.0.1/-/18ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:08:31,306 ERROR 36640 [-/127.0.0.1/-/18ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:09:03,623 ERROR 36640 [-/127.0.0.1/-/37ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:09:03,623 ERROR 36640 [-/127.0.0.1/-/37ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:09:03,623 ERROR 36640 [-/127.0.0.1/-/37ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:09:08,131 ERROR 36640 [-/127.0.0.1/-/105ms GET /page/error/404] -------------------------
+2022-03-25 17:09:08,131 ERROR 36640 [-/127.0.0.1/-/105ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:09:08,131 ERROR 36640 [-/127.0.0.1/-/105ms GET /page/error/404] -------------------------
+2022-03-25 17:09:08,167 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:09:08,167 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:09:08,167 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:09:12,552 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:09:12,552 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:09:12,553 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:09:15,304 ERROR 36640 [-/127.0.0.1/-/99ms GET /page/error/404] -------------------------
+2022-03-25 17:09:15,304 ERROR 36640 [-/127.0.0.1/-/99ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:09:15,304 ERROR 36640 [-/127.0.0.1/-/99ms GET /page/error/404] -------------------------
+2022-03-25 17:09:15,324 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:09:15,324 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:09:15,324 ERROR 36640 [-/127.0.0.1/-/16ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:11:47,589 ERROR 36640 [-/127.0.0.1/-/39ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:11:47,589 ERROR 36640 [-/127.0.0.1/-/39ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:11:47,589 ERROR 36640 [-/127.0.0.1/-/39ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:11:49,706 ERROR 36640 [-/127.0.0.1/-/166ms GET /page/error/404] -------------------------
+2022-03-25 17:11:49,706 ERROR 36640 [-/127.0.0.1/-/166ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:11:49,706 ERROR 36640 [-/127.0.0.1/-/166ms GET /page/error/404] -------------------------
+2022-03-25 17:11:49,734 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:11:49,734 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:11:49,734 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:11:55,201 ERROR 36640 [-/127.0.0.1/-/48ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:11:55,201 ERROR 36640 [-/127.0.0.1/-/48ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:11:55,201 ERROR 36640 [-/127.0.0.1/-/48ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:11:56,926 ERROR 36640 [-/127.0.0.1/-/91ms GET /page/error/404] -------------------------
+2022-03-25 17:11:56,927 ERROR 36640 [-/127.0.0.1/-/91ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:11:56,927 ERROR 36640 [-/127.0.0.1/-/92ms GET /page/error/404] -------------------------
+2022-03-25 17:11:56,967 ERROR 36640 [-/127.0.0.1/-/33ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:11:56,967 ERROR 36640 [-/127.0.0.1/-/33ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:11:56,967 ERROR 36640 [-/127.0.0.1/-/33ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:16:51,058 ERROR 36640 [-/127.0.0.1/-/82ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:16:51,058 ERROR 36640 [-/127.0.0.1/-/82ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:16:51,058 ERROR 36640 [-/127.0.0.1/-/82ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:16:54,093 ERROR 36640 [-/127.0.0.1/-/292ms GET /page/error/404] -------------------------
+2022-03-25 17:16:54,093 ERROR 36640 [-/127.0.0.1/-/292ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:16:54,093 ERROR 36640 [-/127.0.0.1/-/292ms GET /page/error/404] -------------------------
+2022-03-25 17:16:54,141 ERROR 36640 [-/127.0.0.1/-/40ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:16:54,141 ERROR 36640 [-/127.0.0.1/-/40ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:16:54,141 ERROR 36640 [-/127.0.0.1/-/40ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:17:22,009 ERROR 36640 [-/127.0.0.1/-/160ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:17:22,009 ERROR 36640 [-/127.0.0.1/-/160ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:17:22,009 ERROR 36640 [-/127.0.0.1/-/160ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:17:24,180 ERROR 36640 [-/127.0.0.1/-/128ms GET /page/error/404] -------------------------
+2022-03-25 17:17:24,180 ERROR 36640 [-/127.0.0.1/-/128ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:17:24,180 ERROR 36640 [-/127.0.0.1/-/128ms GET /page/error/404] -------------------------
+2022-03-25 17:17:24,220 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:17:24,220 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:17:24,220 ERROR 36640 [-/127.0.0.1/-/32ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:19:59,328 ERROR 36640 [-/127.0.0.1/-/47ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:19:59,329 ERROR 36640 [-/127.0.0.1/-/48ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:19:59,329 ERROR 36640 [-/127.0.0.1/-/48ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:20:02,107 ERROR 36640 [-/127.0.0.1/-/117ms GET /page/error/404] -------------------------
+2022-03-25 17:20:02,107 ERROR 36640 [-/127.0.0.1/-/117ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:20:02,107 ERROR 36640 [-/127.0.0.1/-/117ms GET /page/error/404] -------------------------
+2022-03-25 17:20:02,134 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:20:02,134 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:20:02,134 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:20:41,047 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:20:41,047 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/504/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:20:41,047 ERROR 36640 [-/127.0.0.1/-/29ms GET /page/error/504/null/null] -------------------------
+2022-03-25 17:20:44,312 ERROR 36640 [-/127.0.0.1/-/87ms GET /page/error/404] -------------------------
+2022-03-25 17:20:44,312 ERROR 36640 [-/127.0.0.1/-/87ms GET /page/error/404] 异常报错 - 获取用户登录后第一个可访问菜单出错 --- TypeError: Cannot read properties of null (reading 'child')
+2022-03-25 17:20:44,312 ERROR 36640 [-/127.0.0.1/-/87ms GET /page/error/404] -------------------------
+2022-03-25 17:20:44,491 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------
+2022-03-25 17:20:44,491 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-03-25 17:20:44,491 ERROR 36640 [-/127.0.0.1/-/23ms GET /page/error/404/null/null] -------------------------

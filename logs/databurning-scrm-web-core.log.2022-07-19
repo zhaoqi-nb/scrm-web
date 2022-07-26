@@ -1,0 +1,80 @@
+2022-07-19 10:00:00,226 INFO 80753 [egg-logrotator] app logger reload: got log-reload message
+2022-07-19 13:56:52,430 INFO 89034 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"databurning-scrm-web.log","coreLogName":"databurning-scrm-web-core.log","agentLogName":"databurning-scrm-web-agent.log","errorLogName":"databurning-scrm-web.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-19 13:56:52,872 INFO 89034 [egg-multipart] stream mode enable
+2022-07-19 13:56:54,495 INFO 89034 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/public
+2022-07-19 13:56:54,500 INFO 89034 [egg-security] use methodnoallow middleware
+2022-07-19 13:56:54,502 INFO 89034 [egg-security] use noopen middleware
+2022-07-19 13:56:54,503 INFO 89034 [egg-security] use nosniff middleware
+2022-07-19 13:56:54,504 INFO 89034 [egg-security] use xssProtection middleware
+2022-07-19 13:56:54,505 INFO 89034 [egg-security] use xframe middleware
+2022-07-19 13:56:54,506 INFO 89034 [egg-security] use dta middleware
+2022-07-19 13:56:54,506 INFO 89034 [egg-security] compose 6 middlewares into one security middleware
+2022-07-19 13:56:54,887 INFO 89034 [egg:core] dump config after load, 21ms
+2022-07-19 13:56:55,111 INFO 89034 [egg-watcher:application] watcher start success
+2022-07-19 13:56:55,130 INFO 89034 [egg:core] dump config after ready, 15ms
+2022-07-19 14:01:42,556 INFO 89034 [egg-view-nunjucks] loading templates from ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/view"]
+2022-07-19 14:45:30,973 INFO 97229 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"databurning-scrm-web.log","coreLogName":"databurning-scrm-web-core.log","agentLogName":"databurning-scrm-web-agent.log","errorLogName":"databurning-scrm-web.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-19 14:45:31,025 INFO 97229 [egg-multipart] stream mode enable
+2022-07-19 14:45:31,399 INFO 97229 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/public
+2022-07-19 14:45:31,402 INFO 97229 [egg-security] use methodnoallow middleware
+2022-07-19 14:45:31,403 INFO 97229 [egg-security] use noopen middleware
+2022-07-19 14:45:31,406 INFO 97229 [egg-security] use nosniff middleware
+2022-07-19 14:45:31,408 INFO 97229 [egg-security] use xssProtection middleware
+2022-07-19 14:45:31,412 INFO 97229 [egg-security] use xframe middleware
+2022-07-19 14:45:31,414 INFO 97229 [egg-security] use dta middleware
+2022-07-19 14:45:31,414 INFO 97229 [egg-security] compose 6 middlewares into one security middleware
+2022-07-19 14:45:31,449 INFO 97229 [egg:core] dump config after load, 10ms
+2022-07-19 14:45:31,463 INFO 97229 [egg-watcher:application] watcher start success
+2022-07-19 14:45:31,478 INFO 97229 [egg:core] dump config after ready, 11ms
+2022-07-19 14:45:44,813 INFO 97229 [egg-view-nunjucks] loading templates from ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/view"]
+2022-07-19 15:18:50,728 INFO 3541 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"databurning-scrm-web.log","coreLogName":"databurning-scrm-web-core.log","agentLogName":"databurning-scrm-web-agent.log","errorLogName":"databurning-scrm-web.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-19 15:18:50,783 INFO 3541 [egg-multipart] stream mode enable
+2022-07-19 15:18:51,288 INFO 3541 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/public
+2022-07-19 15:18:51,293 INFO 3541 [egg-security] use methodnoallow middleware
+2022-07-19 15:18:51,296 INFO 3541 [egg-security] use noopen middleware
+2022-07-19 15:18:51,301 INFO 3541 [egg-security] use nosniff middleware
+2022-07-19 15:18:51,305 INFO 3541 [egg-security] use xssProtection middleware
+2022-07-19 15:18:51,308 INFO 3541 [egg-security] use xframe middleware
+2022-07-19 15:18:51,312 INFO 3541 [egg-security] use dta middleware
+2022-07-19 15:18:51,312 INFO 3541 [egg-security] compose 6 middlewares into one security middleware
+2022-07-19 15:18:51,357 INFO 3541 [egg:core] dump config after load, 13ms
+2022-07-19 15:18:51,372 INFO 3541 [egg-watcher:application] watcher start success
+2022-07-19 15:18:51,381 INFO 3541 [egg:core] dump config after ready, 6ms
+2022-07-19 15:18:58,359 INFO 3541 [egg-view-nunjucks] loading templates from ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/view"]
+2022-07-19 15:22:07,766 INFO 4440 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"databurning-scrm-web.log","coreLogName":"databurning-scrm-web-core.log","agentLogName":"databurning-scrm-web-agent.log","errorLogName":"databurning-scrm-web.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-19 15:22:07,827 INFO 4440 [egg-multipart] stream mode enable
+2022-07-19 15:22:08,219 INFO 4440 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/public
+2022-07-19 15:22:08,223 INFO 4440 [egg-security] use methodnoallow middleware
+2022-07-19 15:22:08,224 INFO 4440 [egg-security] use noopen middleware
+2022-07-19 15:22:08,225 INFO 4440 [egg-security] use nosniff middleware
+2022-07-19 15:22:08,226 INFO 4440 [egg-security] use xssProtection middleware
+2022-07-19 15:22:08,229 INFO 4440 [egg-security] use xframe middleware
+2022-07-19 15:22:08,231 INFO 4440 [egg-security] use dta middleware
+2022-07-19 15:22:08,232 INFO 4440 [egg-security] compose 6 middlewares into one security middleware
+2022-07-19 15:22:08,273 INFO 4440 [egg:core] dump config after load, 16ms
+2022-07-19 15:22:08,293 INFO 4440 [egg-watcher:application] watcher start success
+2022-07-19 15:22:08,308 INFO 4440 [egg:core] dump config after ready, 13ms
+2022-07-19 15:25:39,881 INFO 4440 [egg-view-nunjucks] loading templates from ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/view"]
+2022-07-19 16:47:57,019 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-19 16:47:57,026 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-19 17:03:38,012 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-19 17:03:38,013 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-19 18:19:31,011 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-19 18:19:31,011 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-19 19:23:10,016 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-19 19:23:10,016 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-19 21:13:54,011 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-19 21:13:54,012 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-19 21:47:43,015 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-19 22:27:42,013 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-19 22:27:42,013 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-19 23:01:55,020 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-19 23:01:55,020 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-19 23:38:43,012 WARN 4440 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-19 23:38:43,012 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-19 23:41:21,011 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-20 00:21:39,015 WARN 4440 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-20 00:21:39,148 INFO 4440 [egg-logrotator] start remove /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs files: databurning-scrm-web-agent.log.2022-07-09, databurning-scrm-web-core.log.2022-07-09, databurning-scrm-web.err.2022-07-09, databurning-scrm-web.log.2022-07-09, egg-schedule.log.2022-07-09
+2022-07-20 00:21:39,158 INFO 4440 [egg-logrotator] clean all log before 10 days
+2022-07-20 00:21:39,176 INFO 4440 [egg-logrotator] broadcast log-reload
+2022-07-20 00:21:39,176 INFO 4440 [egg-logrotator] rotate files success by DayRotator, files ["/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.err -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.err.2022-07-19","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web.log.2022-07-19","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-core.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-core.log.2022-07-19","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/egg-schedule.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/egg-schedule.log.2022-07-19","/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-agent.log -> /Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/databurning-scrm-web-agent.log.2022-07-19"]

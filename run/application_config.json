@@ -1,0 +1,850 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "logValue": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "authentication",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "supportedRequests": [
+          {
+            "path": {},
+            "methods": [
+              "POST",
+              "PATCH",
+              "DELETE",
+              "PUT",
+              "CONNECT"
+            ]
+          }
+        ],
+        "refererWhiteList": []
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "ipExceptionList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-onerror/lib/onerror_page.mustache",
+      "all": "<Function all>"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-session/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-security/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-jsonp/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-onerror/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-i18n/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-watcher/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-schedule/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-development/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-static/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-view/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-view-nunjucks/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-cors/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/locales",
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 104857600,
+      "files": 10,
+      "fileExtensions": [
+        ".xlsx",
+        ".xls",
+        ".gif",
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".cad",
+        ".pdf",
+        ".doc",
+        ".docx",
+        ".ppt",
+        ".pptx",
+        "avi",
+        "wmv",
+        "mpeg",
+        "mp4",
+        "m4v",
+        "mov",
+        "asf",
+        "flv",
+        "f4v",
+        "rmvb",
+        "rm",
+        "3gp",
+        "vob"
+      ],
+      "whitelist": null,
+      "allowArrayField": false,
+      "tmpdir": "/var/folders/1c/rlxxjm8j72b3d5bv108hct740000gn/T/egg-multipart-tmp/databurning-scrm-web",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *",
+        "disable": false
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false,
+      "overrideIgnore": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 10
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/public",
+      "dynamic": true,
+      "preload": true,
+      "buffer": true,
+      "maxFiles": 1000,
+      "gzip": true,
+      "maxAge": 86400
+    },
+    "view": {
+      "root": [
+        "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/view"
+      ],
+      "cache": false,
+      "defaultExtension": ".nj",
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".nj": "nunjucks",
+        ".xml": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
+    },
+    "cors": {
+      "credentials": true,
+      "allowMethods": "GET,POST",
+      "origin": "<Function corsOrigin>"
+    },
+    "env": "local",
+    "name": "databurning-scrm-web",
+    "keys": "<String len: 12>",
+    "cookies": {},
+    "proxy": false,
+    "maxIpsCount": 0,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "databurning-scrm-web",
+      "version": "1.0.0",
+      "description": "燃数SCRM-WEB端",
+      "main": "app.js",
+      "scripts": {
+        "start": "NODE_ENV=development port=8080 node ./node_modules/webpack/bin/webpack --progress  --config ./static/build/webpack.local.uploadNj.js && NODE_ENV=development port=8080 node ./static/build/webpack.local.config.js",
+        "server": "egg-bin debug --env=local --debug-port=9300 --proxy=9998",
+        "test": "sh ./bin/test.sh",
+        "beta": "sh ./bin/beta.sh",
+        "prod": "sh ./bin/prod.sh",
+        "stop": "egg-scripts stop  --title=databurning-scrm-web",
+        "lint": "eslint --ext .js --ext .jsx static",
+        "lintFix": "eslint --fix --ext .js --ext .jsx static"
+      },
+      "repository": {
+        "type": "git",
+        "url": "http://gitlab.databurning.inc/jiaqi.zhang/databurning-scrm-web"
+      },
+      "keywords": [
+        "燃数SCRM-WEB端"
+      ],
+      "author": "lin.li@databurning.com",
+      "license": "ISC",
+      "dependencies": {
+        "@ant-design/icons": "^4.7.0",
+        "@babel/core": "^7.16.7",
+        "@babel/plugin-transform-runtime": "^7.16.10",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-env": "^7.16.8",
+        "@babel/preset-react": "^7.16.7",
+        "@babel/preset-stage-0": "^7.8.3",
+        "@babel/runtime": "^7.17.0",
+        "ali-react-table": "2.6.1",
+        "antd": "^4.13.1",
+        "array-move": "^4.0.0",
+        "autoprefixer": "9.7",
+        "await-stream-ready": "^1.0.1",
+        "babel-loader": "^8.2.3",
+        "babel-plugin-import": "^1.13.3",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-runtime": "^6.26.0",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^6.4.1",
+        "core-js": "^3.21.0",
+        "crypto": "^1.0.1",
+        "css-loader": "^0.28.11",
+        "cssnano": "^4.1.11",
+        "echarts": "^5.3.2",
+        "egg": "^2.29.3",
+        "egg-cors": "^2.2.3",
+        "egg-http-proxy": "^1.0.1",
+        "egg-logrotator": "^3.1.0",
+        "egg-scripts": "^2.13.0",
+        "egg-view-nunjucks": "^2.3.0",
+        "events": "^3.3.0",
+        "file-loader": "^1.1.11",
+        "form-data": "^4.0.0",
+        "get-folder-size": "^2.0.1",
+        "html-webpack-plugin": "^4.5.2",
+        "html-withimg-loader": "^0.1.16",
+        "immutability-helper": "^3.1.1",
+        "js-base64": "^2.6.4",
+        "js-md5": "^0.7.3",
+        "less-loader": "^6.0.0",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1",
+        "node-fetch": "^2.6.7",
+        "perf_hooks": "0.0.1",
+        "postcss-flexbugs-fixes": "^5.0.2",
+        "postcss-loader": "^3.0.0",
+        "postcss-pxtorem": "^5.1.1",
+        "prop-types": "^15.8.1",
+        "qs": "^6.10.3",
+        "rc-notification": "4.4.0",
+        "react": "^17.0.0",
+        "react-dnd": "^16.0.1",
+        "react-dnd-html5-backend": "^16.0.1",
+        "react-dom": "^17.0.0",
+        "react-infinite-scroll-component": "^6.1.0",
+        "react-loadable": "^5.5.0",
+        "react-redux": "^7.2.6",
+        "react-router-dom": "^5.2.0",
+        "react-sortable-hoc": "^2.0.0",
+        "redux": "^4.0.5",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^2.4.1",
+        "reqwest": "^2.0.5",
+        "sortablejs": "^1.15.0",
+        "stream-wormhole": "^1.1.0",
+        "style-loader": "^0.21.0",
+        "thread-loader": "^3.0.4",
+        "ua-parser-js": "^0.7.24",
+        "url-loader": "^1.1.2",
+        "validator": "^11.1.0",
+        "webpack": "^4.46.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-merge": "^4.2.2"
+      },
+      "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "egg-bin": "^4.14.1",
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-babel": "^9.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-loader": "^4.0.2",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.29.4",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "eslint-plugin-standard": "^5.0.0",
+        "prettier": "^2.6.0",
+        "webpack-dev-server": "^3.10.1"
+      }
+    },
+    "baseDir": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config",
+    "HOME": "/Users/rs-front-01",
+    "rundir": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": "/login"
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>",
+      "cacheControl": "public, max-age=2592000"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "1mb",
+      "jsonLimit": "1mb",
+      "textLimit": "1mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "enableTypes": [
+        "json",
+        "form",
+        "text"
+      ],
+      "extendTypes": {
+        "text": [
+          "text/xml",
+          "application/xml"
+        ]
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/logs/",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "DEBUG",
+      "consoleLevel": "DEBUG",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "databurning-scrm-web.log",
+      "coreLogName": "databurning-scrm-web-core.log",
+      "agentLogName": "databurning-scrm-web-agent.log",
+      "errorLogName": "databurning-scrm-web.err",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "enablePerformanceTimer": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 1200000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256,
+        "timeout": 1200000
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "cors",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "eggLoaderTrace"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7023,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "mode": "file",
+    "systemCode": "databurning-scrm-web",
+    "systemVersion": "",
+    "cookieKey": {
+      "userToken": "rs_scrm_user",
+      "userBehavior": "rs_ub_token",
+      "permissionToken": "rs_scrm_premission"
+    },
+    "API_URL": "",
+    "uploadDir": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/app/upload/",
+    "maxAge": 86400000,
+    "redis": {
+      "agent": true,
+      "expire": 21600,
+      "client": {
+        "host": "172.19.228.122"
+      }
+    },
+    "middleware": [
+      "recordLog"
+    ],
+    "recordLog": {
+      "enable": true,
+      "ignore": "<Function ignore>"
+    },
+    "noNeedLoginPages": [
+      {
+        "path": "officialAccountForm"
+      },
+      {
+        "path": "CodePage",
+        "title": "客户群详情",
+        "pageDes": "活动进行中，扫码入群领取专属福利～"
+      }
+    ],
+    "envVariable": "local",
+    "API_DOMAIN": {
+      "API_URL": "http://testscrm.databurning.com/gateway/"
+    },
+    "fixedData": {},
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 104857600,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-onerror",
+      "version": "2.1.0"
+    },
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-session",
+      "version": "3.3.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-watcher",
+      "version": "3.1.1"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-multipart",
+      "version": "2.13.1"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-security",
+      "version": "2.10.1"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-development",
+      "version": "2.7.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/plugin.js",
+      "package": "egg-logrotator",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-logrotator",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-schedule",
+      "version": "3.6.6"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-static",
+      "version": "2.2.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-view",
+      "version": "2.1.3"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-view-nunjucks",
+      "version": "2.3.0"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-cors",
+      "version": "2.2.3"
+    },
+    "httpProxy": {
+      "enable": false,
+      "package": "egg-http-proxy",
+      "name": "httpProxy",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/config/plugin.js",
+      "path": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web/node_modules/egg-http-proxy",
+      "version": "1.0.1"
+    }
+  },
+  "appInfo": {
+    "name": "databurning-scrm-web",
+    "baseDir": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web",
+    "env": "local",
+    "HOME": "/Users/rs-front-01",
+    "pkg": {
+      "name": "databurning-scrm-web",
+      "version": "1.0.0",
+      "description": "燃数SCRM-WEB端",
+      "main": "app.js",
+      "scripts": {
+        "start": "NODE_ENV=development port=8080 node ./node_modules/webpack/bin/webpack --progress  --config ./static/build/webpack.local.uploadNj.js && NODE_ENV=development port=8080 node ./static/build/webpack.local.config.js",
+        "server": "egg-bin debug --env=local --debug-port=9300 --proxy=9998",
+        "test": "sh ./bin/test.sh",
+        "beta": "sh ./bin/beta.sh",
+        "prod": "sh ./bin/prod.sh",
+        "stop": "egg-scripts stop  --title=databurning-scrm-web",
+        "lint": "eslint --ext .js --ext .jsx static",
+        "lintFix": "eslint --fix --ext .js --ext .jsx static"
+      },
+      "repository": {
+        "type": "git",
+        "url": "http://gitlab.databurning.inc/jiaqi.zhang/databurning-scrm-web"
+      },
+      "keywords": "~config~pkg~keywords",
+      "author": "lin.li@databurning.com",
+      "license": "ISC",
+      "dependencies": {
+        "@ant-design/icons": "^4.7.0",
+        "@babel/core": "^7.16.7",
+        "@babel/plugin-transform-runtime": "^7.16.10",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-env": "^7.16.8",
+        "@babel/preset-react": "^7.16.7",
+        "@babel/preset-stage-0": "^7.8.3",
+        "@babel/runtime": "^7.17.0",
+        "ali-react-table": "2.6.1",
+        "antd": "^4.13.1",
+        "array-move": "^4.0.0",
+        "autoprefixer": "9.7",
+        "await-stream-ready": "^1.0.1",
+        "babel-loader": "^8.2.3",
+        "babel-plugin-import": "^1.13.3",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-runtime": "^6.26.0",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^6.4.1",
+        "core-js": "^3.21.0",
+        "crypto": "^1.0.1",
+        "css-loader": "^0.28.11",
+        "cssnano": "^4.1.11",
+        "echarts": "^5.3.2",
+        "egg": "^2.29.3",
+        "egg-cors": "^2.2.3",
+        "egg-http-proxy": "^1.0.1",
+        "egg-logrotator": "^3.1.0",
+        "egg-scripts": "^2.13.0",
+        "egg-view-nunjucks": "^2.3.0",
+        "events": "^3.3.0",
+        "file-loader": "^1.1.11",
+        "form-data": "^4.0.0",
+        "get-folder-size": "^2.0.1",
+        "html-webpack-plugin": "^4.5.2",
+        "html-withimg-loader": "^0.1.16",
+        "immutability-helper": "^3.1.1",
+        "js-base64": "^2.6.4",
+        "js-md5": "^0.7.3",
+        "less-loader": "^6.0.0",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1",
+        "node-fetch": "^2.6.7",
+        "perf_hooks": "0.0.1",
+        "postcss-flexbugs-fixes": "^5.0.2",
+        "postcss-loader": "^3.0.0",
+        "postcss-pxtorem": "^5.1.1",
+        "prop-types": "^15.8.1",
+        "qs": "^6.10.3",
+        "rc-notification": "4.4.0",
+        "react": "^17.0.0",
+        "react-dnd": "^16.0.1",
+        "react-dnd-html5-backend": "^16.0.1",
+        "react-dom": "^17.0.0",
+        "react-infinite-scroll-component": "^6.1.0",
+        "react-loadable": "^5.5.0",
+        "react-redux": "^7.2.6",
+        "react-router-dom": "^5.2.0",
+        "react-sortable-hoc": "^2.0.0",
+        "redux": "^4.0.5",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^2.4.1",
+        "reqwest": "^2.0.5",
+        "sortablejs": "^1.15.0",
+        "stream-wormhole": "^1.1.0",
+        "style-loader": "^0.21.0",
+        "thread-loader": "^3.0.4",
+        "ua-parser-js": "^0.7.24",
+        "url-loader": "^1.1.2",
+        "validator": "^11.1.0",
+        "webpack": "^4.46.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-merge": "^4.2.2"
+      },
+      "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "egg-bin": "^4.14.1",
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-babel": "^9.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-loader": "^4.0.2",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.29.4",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "eslint-plugin-standard": "^5.0.0",
+        "prettier": "^2.6.0",
+        "webpack-dev-server": "^3.10.1"
+      }
+    },
+    "root": "/Users/rs-front-01/Documents/scrm/databurning-scrm-web"
+  }
+}
